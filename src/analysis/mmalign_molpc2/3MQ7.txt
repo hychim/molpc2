@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-3MQ7.pdb:G:H:L:A:B:C:D:E:F:I:J:K	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/3MQ7.pdb:c:b:a:::::::::	0.1693	0.4736	4.37	0.015	0.047	0.077	1152	363	220
-#Total CPU time is  1.14 seconds

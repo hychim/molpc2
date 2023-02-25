@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-4RAP.pdb:A:B:C:D:E:F:G:H:I:J:K:L	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/4RAP.pdb:e:b:k:h:f:a:d:l:c:j:i:g	0.9236	0.8726	5.49	0.944	0.889	0.945	4589	4872	4584
-#Total CPU time is 305.54 seconds

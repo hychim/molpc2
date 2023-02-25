@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-4F4S.pdb:K:L:M:N:O:A:B:C:D:E::::::	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/4F4S.pdb:e:d:c:b:a::::::f:g:h:i:j:k	0.4922	0.4358	1.24	0.501	0.443	1.000	739	836	370
-#Total CPU time is  0.96 seconds

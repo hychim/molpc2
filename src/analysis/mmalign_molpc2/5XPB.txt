@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-5XPB.pdb:A:B:C:D:E:F:G:H:I:J:::::::::::	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/5XPB.pdb:n:m:l:k:j:i:h:g:f:e:a:b:c:d:o:p:q:r:s:t:u	0.8365	0.3570	4.57	0.885	0.351	0.898	833	2100	821
-#Total CPU time is  5.33 seconds

@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-6KRB.pdb:A:B:I:J:C:D:E:F:G:H:K:L	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/6KRB.pdb:c:b:a:d::::::::	0.1482	0.3864	5.71	0.092	0.275	0.513	1092	364	195
-#Total CPU time is  1.06 seconds

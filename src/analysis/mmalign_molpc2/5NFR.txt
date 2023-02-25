@@ -1,3 +1,0 @@
-#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
-5NFR.pdb:M:N:O:P:A:B:C:D:E:F:G:H:I:J:K:L	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/5NFR.pdb:a:d:b:c::::::::::::	0.2490	0.9666	1.44	0.250	0.976	0.998	5004	1280	1252
-#Total CPU time is  8.11 seconds
