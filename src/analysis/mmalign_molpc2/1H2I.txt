@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+1H2I.pdb:A:B:C:J:K:L:M:N:O:P:Q:R:S:T:U:V:D:E:F:G:H:I:::::	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/1H2I.pdb:f:s:r:h:g:e:i:j:k:l:a:m:n:o:p:q:::::::b:c:d:t:u	0.2938	0.2772	12.27	0.169	0.157	0.418	4092	4389	1654
+#Total CPU time is 79.54 seconds

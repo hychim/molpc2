@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+2GRE.pdb:A:B:C:D:E:F:G:H:I:J:K:L:M:N:O:P	/proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/output/all/2GRE.pdb:b:a:c:i:f:k:e:h:g:d:j:l::::	0.7449	0.8570	1.61	0.737	0.848	0.982	4822	4188	3617
+#Total CPU time is 57.74 seconds
