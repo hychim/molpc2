@@ -13,14 +13,15 @@ python src/preprocessing/af_fasta_pre.py --ID $NAME --fasta $FASTA --output outp
 echo 'Start modeling trimer with alphafold'
 for T_FASTA in output/$NAME/fasta_trimer/*
 do
-	mkdir output/$NAME/trimers/
 	echo $T_FASTA
-	bash src/alphafold/run_alphafold.sh -d ../alphafold_data_v2.3 -o output/$NAME/alphafold/ -f $FASTA -t 2021-11-01 -r false -m multimer -l 1
+	bash src/alphafold/run_alphafold.sh -d ../alphafold_data_v2.3 -o output/$NAME/alphafold/ -f $T_FASTA -t 2021-11-01 -r false -m multimer -l 1
 done
-
+mkdir output/$NAME/trimer/
 for FILE in output/$NAME/alphafold/*
 do
-	cp $FILE/ranked_0.pdb output/$NAME/trimer/$NAME.pdb
+	FILENAME=$(basename -- "$FILE")
+	FILENAME="${FILENAME%.*}"
+	cp $FILE/ranked_0.pdb output/$NAME/trimer/$FILENAME.pdb
 done
 
 rm -r output/$NAME/alphafold/
