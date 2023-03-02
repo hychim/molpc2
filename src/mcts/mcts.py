@@ -335,10 +335,10 @@ def main():
 
     print('close end', v.close_end, v.close_end_source)
     with open(f'{output}{args.id}_close.txt', "w") as text_file:
-        text_file.write(f'{v.close_end}, {v.close_end_source}')
+        text_file.write(f'{v.close_end},{v.close_end_source}')
 
     for i in range(len(v.pdb_path)-1):
-        pairs_lst.append(f'{v.pdb_path[i]}, {v.pdb_path[i+1]}')
+        pairs_lst.append(f'{v.pdb_path[i]},{v.pdb_path[i+1]}')
     if v.close_end != None:
         pairs_lst.append(v.close_end)
         source_lst.append(v.close_end_source)
@@ -351,10 +351,10 @@ def main():
     source_lst.reverse()
 
     out_lst = []
-    out_lst.append(f'output/{args.id}/{args.id}_final.pdb')
+    out_lst.append(f'output/{args.id}/mcts/{args.id}_final.pdb')
     out_lst.append(" ".join(v.pdb_path))
     out_lst.append(" ".join(v.path))
-    out_lst = out_lst + [f'{pairs_lst[i]}, {source_lst[i]}' for i in range(len(source_lst))]
+    out_lst = out_lst + [f'{pairs_lst[i]},{source_lst[i]}' for i in range(len(source_lst))]
 
     with open(f'{output}{args.id}_path.txt', 'w') as f:
         for line in out_lst:

@@ -3,7 +3,6 @@ import argparse
 argument_parser = argparse.ArgumentParser(description = '''Build topology files for IMP.''')
 argument_parser.add_argument('--id', type=str, help = 'pdb id')
 argument_parser.add_argument('--input', type=str, help = 'input')
-argument_parser.add_argument('--output_dir', type=str, help = 'Path to output files.')
 args = argument_parser.parse_args()
 
 # init
@@ -102,6 +101,6 @@ output.append("|molecule_name|color|fasta_fn|fasta_id |pdb_fn|chain|residue_rang
 for idx in range(length):
     output.append(f'|chain_{chains[idx]}|{top60_color[idx]:17}|{pdb_id}.fasta|{pdb_id}_{chains_id[idx]}|{pdb_path}|{chains[idx]}|1,END|0|20|0|{idx+1:2}||')
 
-with open(f'{args.output_dir}{args.id}_topology.txt', 'w') as f:
+with open(f'output/{args.id}/imp/{args.id}_topology.txt', 'w') as f:
     for line in output:
         f.write(f"{line}\n")
