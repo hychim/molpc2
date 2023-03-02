@@ -4,7 +4,7 @@ FILENAME=$(basename -- "$FASTA")
 NAME="${FILENAME%.*}"
 echo $NAME
 
-#mkdir output/$NAME
+mkdir output/$NAME
 
 ### Fasta Preprocessing
 python src/preprocessing/af_fasta_pre.py --ID $NAME --fasta $FASTA --output output/$NAME/fasta_trimer/
@@ -13,10 +13,18 @@ python src/preprocessing/af_fasta_pre.py --ID $NAME --fasta $FASTA --output outp
 echo 'Start modeling trimer with alphafold'
 for T_FASTA in output/$NAME/fasta_trimer/*
 do
-	#mkdir output/$NAME/trimers/
+	mkdir output/$NAME/trimers/
 	echo $T_FASTA
-	#bash run_alphafold.sh
+	bash src/alphafold/run_alphafold.sh -d ../alphafold_data_v2.3 -o output/$NAME/alphafold/ -f $FASTA -t 2021-11-01 -r false -m multimer -l 1
 done
+
+for FILE in output/$NAME/alphafold/*
+do
+	cp $FILE/ranked_0.pdb output/$NAME/trimer/$NAME.pdb
+done
+
+rm -r output/$NAME/alphafold/
+
 echo 'Trimer modeling done'
 
 ### Dimer2Pairs
