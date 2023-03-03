@@ -1,6 +1,15 @@
-# molpc-imp
+# MoLPC-IMP
 ## Introduction
- MoLPC with IMP
+**M**odelling **o**f **L**arge **P**rotein **C**omplexes with **I**ntegrative **M**odeling **P**latform
+
+This directory contains the pipeline for modeling large protein complexes without knowing the stochiometry using AlphaFold2, Monte Carlo Tree Search(MCTS), and IMP. MoLPC-IMP can be run using predictions of subcomponents from any method and is thus not directly dependent on AlphaFold2.
+
+Given a set of unique protein sequences, this pipeline predicts the structure of an entire complex composed of the supplied sequences. The pipeline is developed for protein complexes with 7-26 chains, but is also functional for smaller protein complexes.
+
+### |1AVO | TMscores | A7B7 |
+**Native complex in grey, prediction colored by chain**
+<img src="1AVO.gif" width="40" height="40" />
+
 
 ## Computational Requirement
 Before beginning the process of setting up this pipeline on your local system, make sure you have adequate computational resources.
