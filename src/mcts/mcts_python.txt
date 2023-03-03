@@ -1,4 +1,0 @@
-python3 mcts_org.py --network assembly/meta.csv \
---pairdir assembly/pairs/ --plddt_dir assembly/plddt/ \
---useqs assembly/1A8R_useqs.csv --chain_seqs assembly/1A8R_chains.csv \
---outdir output
