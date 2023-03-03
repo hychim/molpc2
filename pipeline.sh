@@ -7,7 +7,7 @@ echo $NAME
 mkdir output/$NAME
 
 ### Fasta Preprocessing
-python src/preprocessing/af_fasta_pre.py --ID $NAME --fasta $FASTA --output output/$NAME/fasta_trimer/
+python src/preprocessing/af_fasta_pre.py --ID $NAME --fasta $FASTA --mer 3 --output output/$NAME/fasta_trimer/
 
 ### AlphaFold
 echo 'Start modeling trimer with alphafold'
@@ -31,7 +31,7 @@ echo 'Trimer modeling done'
 ### Dimer2Pairs
 echo 'Converting trimers to protein pairs'
 mkdir output/$NAME/pairs/
-python src/preprocessing/write2pairs_v2.py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
+python src/preprocessing/write2pairs.py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
 echo 'Pairs converting done'
 
 ### MCTS

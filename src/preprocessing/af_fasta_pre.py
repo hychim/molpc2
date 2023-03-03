@@ -5,6 +5,7 @@ import os
 parser = argparse.ArgumentParser(description = '''Write the fasta file in to all permutation.''')
 parser.add_argument('--fasta', type=str, help = 'Path to fasta file.')
 parser.add_argument('--ID', type=str, help = 'job ID')
+parser.add_argument('--mer', type=int, help = '3-mer, 4-mer or 5-mer')
 parser.add_argument('--output', type=str, help = 'Output directory')
 args = parser.parse_args()
 
@@ -17,7 +18,7 @@ def gen_perm(filename):
         lines = f.read().splitlines()
     lst = range(len(lines[::2]))
     #perm = [p for p in itertools.product(lst, repeat=3)]
-    perm = [p for p in itertools.combinations_with_replacement(lst, 3)]
+    perm = [p for p in itertools.combinations_with_replacement(lst, args.mer)]
     return perm
     
 def gen_perm_fasta(filename):
