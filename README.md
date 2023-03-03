@@ -6,10 +6,10 @@ This directory contains the pipeline for modeling large protein complexes withou
 
 Given a set of unique protein sequences, this pipeline predicts the structure of an entire complex composed of the supplied sequences. The pipeline is developed for protein complexes with 7-26 chains, but is also functional for smaller protein complexes.
 
-### |1AVO | TMscores | A7B7 |
+### | [1AVO](https://www.rcsb.org/structure/1avo) | C7 | Hetero 14-mer - A7B7 |
 **Native complex in grey, prediction colored by chain**
-<img src="1AVO.gif" width="40" height="40" />
 
+<img src="./1AVO.gif" width="75%" height="75%" />
 
 ## Computational Requirement
 Before beginning the process of setting up this pipeline on your local system, make sure you have adequate computational resources.
@@ -103,13 +103,14 @@ The contents of each output file are as follows:
 ## Procedure
 The pipeline consists of four steps:
 1. Compute all combination without replacement
-
-2. AlphaFold-Multimer
-
-3. Converting trimer to protein pairs
-
-4. MCTS
-
-5. Extract distant restrain from MCTS final complexes
-
-6. Model complexes with IMP
+    Combination without replacement of trimer sequences will be computed and generate the fasta file for trimer modeling in AlphaFold2.
+1. AlphaFold-Multimer
+    Model the trimer combinations with AlphaFold2-Multimer
+1. Converting trimer to protein pairs
+    Convert the trimer from AlphaFold2 to protein pairs. Pairs with distance larger than the threshold(default 6Å) will be filtered out.
+1. MCTS
+    From the interactions in the predicted subcomponents, we add chains sequentially following a predetermined path through the interaction network (graph). If two pairwise interactions are A-B and B-C, we assemble the complex A-B-C by superposing chain B from A-B and B-C using BioPython’s SVD and rotating the missing chain to its correct relative position. To find the optimal assembly route for a complex, we search for an optimal path using Monte Carlo Tree Search
+1. Extract distant restrain from MCTS final complexes
+    
+1. Model complexes with IMP
+    
