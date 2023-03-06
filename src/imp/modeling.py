@@ -95,7 +95,7 @@ with open(dr, newline='') as f:
     reader = csv.reader(f)
     data = list(reader)
 
-for l in data:
+for l in data[:-1]:
     try:
         dr = IMP.pmi.restraints.basic.DistanceRestraint(root_hier,
                                                         (int(l[1]),int(l[1]),l[0],),
