@@ -333,9 +333,10 @@ def main():
     pairs_lst = []
     source_lst = []
 
-    print('close end', v.close_end, v.close_end_source)
-    with open(f'{output}{args.id}_close.txt', "w") as text_file:
-        text_file.write(f'{v.close_end},{v.close_end_source}')
+    if v.close_end != None:
+        print('close end', v.close_end, v.close_end_source)
+        with open(f'{output}{args.id}_close.txt', "w") as text_file:
+            text_file.write(f'{v.close_end},{v.close_end_source}')
 
     for i in range(len(v.pdb_path)-1):
         pairs_lst.append(f'{v.pdb_path[i]},{v.pdb_path[i+1]}')

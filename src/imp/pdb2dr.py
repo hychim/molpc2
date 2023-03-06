@@ -19,9 +19,6 @@ pdb_id = args.id
 close_end = args.close_end
 dist_thres = args.dist
 mcts_final = args.mcts_pdb
-with open(close_end) as f:
-    lines = [line.rstrip() for line in f]
-close_end = str(lines[0]).split(',')
 
 pdb_parser = PDBParser(PERMISSIVE=1)
 structure = pdb_parser.get_structure('mcts', mcts_final)
@@ -60,24 +57,28 @@ for pair in c:
                     f.write(line)
 
 # add close end distant restraint
-structure = pdb_parser.get_structure('close_end', close_end[2])
-chain_lst = []
-for chain in structure[0]:
-    chain_lst.append(chain)
-chainA = chain_lst[0]
-chainB = chain_lst[1]
+if os.path.exists(close_end):
+    with open(close_end) as f:
+        lines = [line.rstrip() for line in f]
+    close_end = str(lines[0]).split(',')
+    structure = pdb_parser.get_structure('close_end', close_end[2])
+    chain_lst = []
+    for chain in structure[0]:
+        chain_lst.append(chain)
+    chainA = chain_lst[0]
+    chainB = chain_lst[1]
 
-for residue in chainA:
-    A_first = residue.get_id()[1]
-    break
-for residue in chainB:
-    B_first = residue.get_id()[1]
-    break
-for resA in chainA:
-    for resB in chainB:
-        dist = resA['CA'] - resB['CA']
-        if dist < dist_thres:
-            line = f"chain_{close_end[0]},{resA.get_id()[1]-A_first+1},chain_{close_end[1]},{resB.get_id()[1]-B_first+1},{dist} \n"
-            f.write(line)
+    for residue in chainA:
+        A_first = residue.get_id()[1]
+        break
+    for residue in chainB:
+        B_first = residue.get_id()[1]
+        break
+    for resA in chainA:
+        for resB in chainB:
+            dist = resA['CA'] - resB['CA']
+            if dist < dist_thres:
+                line = f"chain_{close_end[0]},{resA.get_id()[1]-A_first+1},chain_{close_end[1]},{resB.get_id()[1]-B_first+1},{dist} \n"
+                f.write(line)
 
 f.close()
