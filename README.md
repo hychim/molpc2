@@ -9,7 +9,7 @@ Given a set of unique protein sequences, this pipeline predicts the structure of
 ### | [1AVO](https://www.rcsb.org/structure/1avo) | C7 | Hetero 14-mer - A7B7 |
 **Native complex in grey, prediction colored by chain**
 
-<img src="./1AVO.gif" width="75%" height="75%" />
+<img src="analysis/1AVO.gif" width="75%" height="75%" />
 
 ## Computational Requirement
 Before beginning the process of setting up this pipeline on your local system, make sure you have adequate computational resources.
