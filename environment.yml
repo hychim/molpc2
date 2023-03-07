@@ -194,7 +194,7 @@ dependencies:
     - immutabledict==2.0.0
     - importlib-metadata==6.0.0
     - jax==0.3.25
-    - jaxlib==0.3.25+cuda11.cudnn805
+    - jaxlib==0.3.25
     - jmp==0.0.4
     - keras==2.11.0
     - libclang==15.0.6.1
