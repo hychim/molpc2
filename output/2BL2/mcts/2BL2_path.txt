@@ -1,0 +1,12 @@
+output/2BL2/mcts/2BL2_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/2BL2/pairs/2BL2_000_00_BC.pdb
+b,c,output/2BL2/pairs/2BL2_000_00_BC.pdb
+c,d,output/2BL2/pairs/2BL2_000_00_BC.pdb
+d,e,output/2BL2/pairs/2BL2_000_00_BC.pdb
+e,f,output/2BL2/pairs/2BL2_000_00_BC.pdb
+f,g,output/2BL2/pairs/2BL2_000_00_BC.pdb
+g,h,output/2BL2/pairs/2BL2_000_00_BC.pdb
+h,i,output/2BL2/pairs/2BL2_000_00_BC.pdb
+i,j,output/2BL2/pairs/2BL2_000_00_BC.pdb
