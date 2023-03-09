@@ -1,1 +1,0 @@
-l, c,output/1AVO/pairs/1AVO_100_10_BD.pdb

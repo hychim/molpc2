@@ -1,8 +1,9 @@
-from Bio.PDB import *
+from Bio.PDB import PDBParser, Select, PDBIO
 import glob
 import itertools
 import numpy as np
 import argparse
+import os
 
 argument_parser = argparse.ArgumentParser(description = '''Search for assemble path''')
 argument_parser.add_argument('--trimer_dir', type=str, help = 'Path to pdb files.')
@@ -38,14 +39,17 @@ class ChainSelect(Select):
             return 0
 
 def write_pairs(directory):
-    for pdb in glob.glob(directory):
-        pdb_id = pdb[-12:-4]
-        trimer_name = pdb[-7:-4]
-        structure = parser.get_structure("trimer", pdb)
+    for pdb_file in glob.glob(directory):
+        pdb = os.path.basename(pdb_file)
+        pdb_id = pdb[0:-4]
+        trimer_name = (pdb_id.split('_')[1]).split('-')
 
-        chain_lst = []
-        for chain in structure[0]:
-            chain_lst.append(chain.get_id())
+        print(trimer_name)
+
+        #trimer_name = pdb[-7:-4]
+        structure = parser.get_structure("trimer", pdb_file)
+
+        chain_lst = [chain.get_id() for chain in structure[0]]
         perm = [p for p in itertools.combinations(chain_lst, 2)]        # for chain name, e.g. B, C, D
         perm_ind = [p for p in itertools.combinations(trimer_name, 2)]  # for individual chain id, e.g. 0, 1, 2, 3
         io = PDBIO()
@@ -54,7 +58,7 @@ def write_pairs(directory):
             chainA = perm[i][0]
             chainB = perm[i][1]
             if interacting(structure[0][chainA], structure[0][chainB]):
-                io.save(f'{args.output_dir}{pdb_id}_{perm_ind[i][0]}{perm_ind[i][1]}_{chainA}{chainB}.pdb', ChainSelect(perm[i]))
+                io.save(f'{args.output_dir}{pdb_id}_{perm_ind[i][0]}-{perm_ind[i][1]}_{chainA}-{chainB}.pdb', ChainSelect(perm[i]))
             
 def main():
     write_pairs(args.trimer_dir+"*")

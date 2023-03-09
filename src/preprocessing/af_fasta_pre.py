@@ -17,8 +17,8 @@ def gen_perm(filename):
     with open(filename) as f:
         lines = f.read().splitlines()
     lst = range(len(lines[::2]))
-    #perm = [p for p in itertools.product(lst, repeat=3)]
-    perm = [p for p in itertools.combinations_with_replacement(lst, args.mer)]
+    perm = [p for p in itertools.product(lst, repeat=3)]
+    #perm = [p for p in itertools.combinations_with_replacement(lst, args.mer)]
     return perm
     
 def gen_perm_fasta(filename):
@@ -29,7 +29,7 @@ def gen_perm_fasta(filename):
         for j in i:
             fasta.append(lines[j*2])
             fasta.append(lines[j*2+1])
-        name = ''.join(str(x) for x in i)
+        name = '-'.join(str(x) for x in i)
         os.makedirs(output) if not os.path.exists(output) else None
         with open(f'{output}/{ID}_{name}.fasta', 'w') as f:
             for line in fasta:

@@ -21,7 +21,11 @@ for FILE in output/$NAME/alphafold/*
 do
 	FILENAME=$(basename -- "$FILE")
 	FILENAME="${FILENAME%.*}"
-	cp $FILE/ranked_0.pdb output/$NAME/trimer/$FILENAME.pdb
+	cp $FILE/ranked_0.pdb output/$NAME/trimer/$FILENAME'_0.pdb'
+	cp $FILE/ranked_1.pdb output/$NAME/trimer/$FILENAME'_1.pdb'
+	cp $FILE/ranked_2.pdb output/$NAME/trimer/$FILENAME'_2.pdb'
+	cp $FILE/ranked_3.pdb output/$NAME/trimer/$FILENAME'_3.pdb'
+	cp $FILE/ranked_4.pdb output/$NAME/trimer/$FILENAME'_4.pdb'
 done
 
 rm -r output/$NAME/alphafold/
@@ -31,7 +35,7 @@ echo 'Trimer modeling done'
 ### Dimer2Pairs
 echo 'Converting trimers to protein pairs'
 mkdir output/$NAME/pairs/
-python src/preprocessing/write2pairs.py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
+python src/preprocessing/write2pairs  .py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
 echo 'Pairs converting done'
 
 ### MCTS

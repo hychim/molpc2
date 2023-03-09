@@ -4,7 +4,7 @@ import numpy as np
 import glob
 import copy
 from collections import Counter, defaultdict
-from Bio.PDB import *
+from Bio.PDB import PDBParser, Superimposer, PDBIO
 import string
 
 import argparse
@@ -28,8 +28,12 @@ edges_pdb = []
 sources = pair_paths
 for file_path in pair_paths:
     name = os.path.basename(file_path)
-    edges.append([name[-9], name[-8]])
-    edges_pdb.append([name[-6], name[-5]])
+    edges_lst = (name.split('_')[3]).split('-')
+    edges_pdb_lst = (name.split('_')[4]).split('-')
+    edges.append(edges_lst)
+    edges_pdb.append(edges_pdb_lst)
+    #edges.append([name[-9], name[-8]])
+    #edges_pdb.append([name[-6], name[-5]])
 
 edges = np.array(edges)
 edges_pdb = np.array(edges_pdb)
