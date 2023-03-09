@@ -98,6 +98,18 @@ def count_interface(structure):
                     num_interface += 1
     return num_interface/2
 
+def count_interface_chain(structure):
+    num_interface_lst = []
+    for chainA in structure[0]:
+        num_interface = 0
+        for chainB in structure[0]:
+            if chainA.get_id() != chainB.get_id():
+                contact_map = dist_comp(chainA, chainB)
+                if 12 > min(contact_map): # 8 is the threshold for interacting protein
+                    num_interface += 1
+        num_interface_lst.append(num_interface)
+    return num_interface_lst
+
 def re_name_chain(structure):
     new_structure = structure.copy()
     i = 0
@@ -150,7 +162,7 @@ class MonteCarloTreeSearchNode():
         self.close_end = None
         return
 
-    def get_possible_edges(self):
+    def get_possible_edges_old(self):
         untried_edges = []
         untried_edges_pdb = []  # for pdb chain, eg. ["B", "C"], ["C", "D"]
         untried_sources = []
@@ -160,6 +172,32 @@ class MonteCarloTreeSearchNode():
             cedges = edges[np.argwhere(edges[:,0]==self.path[j])[:,0]]
             cedges_pdb = edges_pdb[np.argwhere(edges[:,0]==self.path[j])[:,0]]
             csources = sources[np.argwhere(edges[:,0]==self.path[j])[:,0]]
+            for i in range(len(cedges)):
+                untried_edges.append(cedges[i])
+                untried_edges_pdb.append(cedges_pdb[i])
+                untried_sources.append(csources[i])
+                untried_edgesA.append(self.pdb_path[j])
+
+        return untried_edges, untried_edges_pdb, untried_sources, untried_edgesA
+
+    def get_possible_edges(self):
+        untried_edges = []
+        untried_edges_pdb = []  # for pdb chain, eg. ["B", "C"], ["C", "D"]
+        untried_sources = []
+        untried_edgesA = []     # for re named chain path, eg. ["0" ,"0"], ["0" ,"1"]
+
+        interface_lst = count_interface_chain(self.structure)
+
+        shortlisted = []
+        for i in range(len(self.path)):
+            if interface_lst[i] < max(interface_lst):
+                shortlisted.append(self.path[i])
+
+        for j in range(len(shortlisted)):
+            #Get all edges to the current node
+            cedges = edges[np.argwhere(edges[:,0]==shortlisted[j])[:,0]]
+            cedges_pdb = edges_pdb[np.argwhere(edges[:,0]==shortlisted[j])[:,0]]
+            csources = sources[np.argwhere(edges[:,0]==shortlisted[j])[:,0]]
             for i in range(len(cedges)):
                 untried_edges.append(cedges[i])
                 untried_edges_pdb.append(cedges_pdb[i])
