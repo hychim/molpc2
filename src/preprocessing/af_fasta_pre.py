@@ -17,8 +17,8 @@ def gen_perm(filename):
     with open(filename) as f:
         lines = f.read().splitlines()
     lst = range(len(lines[::2]))
-    perm = [p for p in itertools.product(lst, repeat=3)]
-    #perm = [p for p in itertools.combinations_with_replacement(lst, args.mer)]
+    #perm = [p for p in itertools.product(lst, repeat=3)]
+    perm = [p for p in itertools.combinations_with_replacement(lst, args.mer)]
     return perm
     
 def gen_perm_fasta(filename):

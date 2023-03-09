@@ -27,7 +27,7 @@ edges = []
 edges_pdb = []
 sources = pair_paths
 for file_path in pair_paths:
-    name = os.path.basename(file_path)
+    name = os.path.basename(file_path)[:-4]
     edges_lst = (name.split('_')[3]).split('-')
     edges_pdb_lst = (name.split('_')[4]).split('-')
     edges.append(edges_lst)
@@ -156,13 +156,16 @@ class MonteCarloTreeSearchNode():
 
         self.children = [] #All nodes branching out from the current
         self._number_of_visits = 0
-        self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges()
+        if self.structure == None:
+            self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges_all()
+        else:
+            self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges()
 
         self.early_stop = False
         self.close_end = None
         return
 
-    def get_possible_edges_old(self):
+    def get_possible_edges_all(self):
         untried_edges = []
         untried_edges_pdb = []  # for pdb chain, eg. ["B", "C"], ["C", "D"]
         untried_sources = []
@@ -185,12 +188,11 @@ class MonteCarloTreeSearchNode():
         untried_edges_pdb = []  # for pdb chain, eg. ["B", "C"], ["C", "D"]
         untried_sources = []
         untried_edgesA = []     # for re named chain path, eg. ["0" ,"0"], ["0" ,"1"]
-
+        # need to fix none type
         interface_lst = count_interface_chain(self.structure)
-
         shortlisted = []
         for i in range(len(self.path)):
-            if interface_lst[i] < max(interface_lst):
+            if interface_lst[i] <= min(interface_lst)+1:
                 shortlisted.append(self.path[i])
 
         for j in range(len(shortlisted)):
@@ -254,9 +256,6 @@ class MonteCarloTreeSearchNode():
             path_node = copy.deepcopy(self)
 
             while len(path_node.path)<26 and overlap==False:
-                #Get untried edges and sources
-                #untried_edges, untried_edges_pdb, untried_sources, untried_edgesA = get_possible_edges(path_node)
-                #Pick a random edge
                 if len(path_node._untried_edges)>0:
                     edge_ind = np.random.randint(len(path_node._untried_edges))
                 else:
@@ -349,7 +348,6 @@ class MonteCarloTreeSearchNode():
             return self.best_child()
         else:
             return self
-
 
 def main():
     root = MonteCarloTreeSearchNode('0', '', source=None, structure=None, complex_scores=[0], parent=None, parent_path=[], parent_pdb_path=[])

@@ -35,7 +35,7 @@ echo 'Trimer modeling done'
 ### Dimer2Pairs
 echo 'Converting trimers to protein pairs'
 mkdir output/$NAME/pairs/
-python src/preprocessing/write2pairs  .py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
+python src/preprocessing/write2pairs.py --trimer_dir output/$NAME/trimer/ --output_dir output/$NAME/pairs/
 echo 'Pairs converting done'
 
 ### MCTS

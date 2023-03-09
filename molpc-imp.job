@@ -14,5 +14,3 @@ conda activate /proj/berzelius-2021-29/users/x_hoych/conda_molpc-imp
 cd /proj/berzelius-2021-29/users/x_hoych/molpc-imp
 
 bash pipeline.sh data/2BL2.fasta
-
-
