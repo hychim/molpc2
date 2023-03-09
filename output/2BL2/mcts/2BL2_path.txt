@@ -1,4 +1,13 @@
 output/2BL2/mcts/2BL2_final.pdb
-a b
-0 0
-a,b,output/2BL2/pairs/2BL2_0-0-0_1_0-0_B-D.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+b,c,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+c,d,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+d,e,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+e,f,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+f,g,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+g,h,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+h,i,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+i,j,output/2BL2/pairs/2BL2_0-0-0_0_0-0_B-C.pdb
+j, a,output/2BL2/pairs/2BL2_0-0-0_1_0-0_B-C.pdb
