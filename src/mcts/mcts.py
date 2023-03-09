@@ -12,6 +12,8 @@ import argparse
 argument_parser = argparse.ArgumentParser(description = '''Search for assemble path''')
 argument_parser.add_argument('--id', type=str, help = 'Path to pdb files.')
 argument_parser.add_argument('--pairs_dir', type=str, help = 'Path to pdb files.')
+argument_parser.add_argument('--steps', type=int, help = 'No. of simluation steps for each moves.')
+argument_parser.add_argument('--moves', type=int, help = 'No. of moves.')
 argument_parser.add_argument('--output', type=str, help = 'Output')
 args = argument_parser.parse_args()
 
@@ -156,6 +158,9 @@ class MonteCarloTreeSearchNode():
 
         self.children = [] #All nodes branching out from the current
         self._number_of_visits = 0
+        
+        #self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges_all()
+
         if self.structure == None:
             self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges_all()
         else:
@@ -191,9 +196,11 @@ class MonteCarloTreeSearchNode():
         # need to fix none type
         interface_lst = count_interface_chain(self.structure)
         shortlisted = []
+        shortlisted_pdb_path = []
         for i in range(len(self.path)):
             if interface_lst[i] <= min(interface_lst)+1:
                 shortlisted.append(self.path[i])
+                shortlisted_pdb_path.append(self.pdb_path[i])
 
         for j in range(len(shortlisted)):
             #Get all edges to the current node
@@ -204,7 +211,7 @@ class MonteCarloTreeSearchNode():
                 untried_edges.append(cedges[i])
                 untried_edges_pdb.append(cedges_pdb[i])
                 untried_sources.append(csources[i])
-                untried_edgesA.append(self.pdb_path[j])
+                untried_edgesA.append(shortlisted_pdb_path[j])
 
         return untried_edges, untried_edges_pdb, untried_sources, untried_edgesA
 
@@ -336,7 +343,7 @@ class MonteCarloTreeSearchNode():
                 return current_node.expand()
 
     def best_action(self):
-        simulation_no = 1
+        simulation_no = args.steps
         
         for i in range(simulation_no):
             v = self.tree_policy()
@@ -354,14 +361,14 @@ def main():
 
     v = root
 
-    step = 1
+    move_count = 1
     
     if not os.path.exists(f'{output}'):
         os.makedirs(f'{output}')
     
-    for _ in range(30):
+    for _ in range(args.moves):
         v = v.best_action()
-        save_pdb(v.structure, f'{output}{args.id}_step{str(step)}.pdb')
+        save_pdb(v.structure, f'{output}{args.id}_step{str(move_count)}.pdb')
         step += 1
         if v.early_stop:
             print("early stop")

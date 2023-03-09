@@ -40,7 +40,7 @@ echo 'Pairs converting done'
 
 ### MCTS
 echo 'Start MCTS'
-python src/mcts/mcts.py --id $NAME --pairs_dir output/$NAME/pairs/ --output output/$NAME/mcts/
+python src/mcts/mcts.py --id $NAME --pairs_dir output/$NAME/pairs/ --output output/$NAME/mcts/ --moves 30 --steps 50
 echo 'MCTS done'
 
 ### IMP
