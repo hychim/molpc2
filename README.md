@@ -96,9 +96,17 @@ The outputs will be saved in output directory(/molpc/output/<NAME>/) of the dire
     └── <NAME>_{XXX}.pdb
 ```
 The contents of each output file are as follows:
- - `<NAME>_imp.pdb`  - Final model from IMP
+ - `<NAME>_imp.pdb` - Final model from IMP
  - `<NAME>_mcts.pdb` - Final model from the Monte Carlo Tree Search
- 
+ - `fasta_trimer/<NAME>_{X-X-X}.fasta` - Combination of the input fasta. The <NAME> is the input fasta file name. The {X-X-X is the combination of unique chain. For example, for trimer that have 1 unique chain 0 and 2 unique chain 1, {X-X-X} will be {0-1-1}.
+ - `trimer/<NAME>_{X-X-X}_{rank}.pdb` - Trimer structure predicted from AlphaFold. The {X-X-X} is the combination of unique chain. The {rank} is the rank order from AlphaFold.
+ - `pairs<NAME>_{X-X-X}_{rank}_{Y-Y}_{Z-Z}.pdb` - Protein pairs that extracted from trimer. {Y-Y} is the interacting unique chain pairs, for example {0-0}. {Z-Z} is the interacting chain name, for example {B-C}.
+ - `mcts/<NAME>_move{1,2,...,30}.pdb` - Every moves' result from MCTS.
+ - `mcts/<NAME>_close.txt` - 'Closing protein pairs' that detected from MCTS. Needed for better IMP modeling expecially for cyclic protein.
+ - `mcts/<NAME>_path.txt` - Asseble path from MCTS.
+ - `mcts/<NAME>_final.pdb` - Final pdb structure from MCTS. Same as `<NAME>_mcts.pdb`
+ - `imp/<NAME>_dr.csv` - Distant restraint information extracted from MCTS final structure and closing protein pairs.
+ - `imp/<NAME>_topology.txt` - Toplogy file for IMP. For details, please refer to [IMP manual](https://integrativemodeling.org/2.5.0/doc/ref/classIMP_1_1pmi_1_1topology_1_1TopologyReader.html)
  
 ## Procedure
 The pipeline consists of four steps:
