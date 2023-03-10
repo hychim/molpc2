@@ -29,7 +29,7 @@ do
 done
 
 rm -r output/$NAME/alphafold/
-
+python src/preprocessing/pairs_filter.py --trimer_dir output/$NAME/trimer/
 echo 'Trimer modeling done'
 
 ### Dimer2Pairs

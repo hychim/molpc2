@@ -34,12 +34,17 @@ for file_path in pair_paths:
     edges_pdb_lst = (name.split('_')[4]).split('-')
     edges.append(edges_lst)
     edges_pdb.append(edges_pdb_lst)
-    #edges.append([name[-9], name[-8]])
-    #edges_pdb.append([name[-6], name[-5]])
+
+    # bidriection
+    edges_lst_rev = edges_lst[::-1]
+    edges.append(edges_lst_rev)
+    edges_pdb_lst_rev = edges_pdb_lst[::-1]
+    edges_pdb.append(edges_pdb_lst_rev)
 
 edges = np.array(edges)
 edges_pdb = np.array(edges_pdb)
 sources = np.array(sources)
+sources = np.repeat(sources, 2)
 
 def superimpose(structureA, structureB, shared_chain_inA, shared_chain_inB, added_chain):
     ref_atoms = []
@@ -57,7 +62,6 @@ def superimpose(structureA, structureB, shared_chain_inA, shared_chain_inB, adde
     structure_merged[0].add(structureB[0][added_chain])
     
     return structure_merged
-
 
 def dist_comp(chainA, chainB):
     contact_map = []
@@ -369,7 +373,7 @@ def main():
     for _ in range(args.moves):
         v = v.best_action()
         save_pdb(v.structure, f'{output}{args.id}_step{str(move_count)}.pdb')
-        step += 1
+        move_count += 1
         if v.early_stop:
             print("early stop")
             break
