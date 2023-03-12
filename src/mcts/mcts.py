@@ -385,7 +385,6 @@ def main():
     source_lst = []
 
     if v.close_end != None:
-        print('close end', v.close_end, v.close_end_source)
         with open(f'{output}{args.id}_close.txt', "w") as text_file:
             text_file.write(f'{v.close_end},{v.close_end_source}')
 

@@ -73,7 +73,22 @@ Then to run molpc-pipeline, simply do:
 bash pipeline YOUR_FASTA.fasta
 ```
 
-### molpc-imp output
+### Help
+```
+Please make sure all required parameters are given
+Usage: pipeline.sh <OPTIONS>
+Required Parameters:
+-f <fasta_path>       Path to fasta file with all unique chain(s), e.g. data/2BL2.fasta
+Optional Parameters:
+-m <mer>              Number of chains of the sub-unit predicted from the AlphaFold. (default: 3)
+-d <alphafold_data>   Path to directory of AlphaFold supporting data. (default: ../alphafold_data_v2.3)
+-c <moves>            Maximum moves in monte carlo tree search, if your complexes have more than 30 chains, please increase the no. of moves. (default: 30)
+-s <steps>            Number of simulations in each moves in mcts, more the steps, more accurate the modeling will be. (default: 50)
+-r <remodel>          Remodel the final structure with AlphaFold (AF), IMP (IMP) or no re-modeling(False) (default: 'False')
+
+```
+
+### MoLPC-IMP output
 The outputs will be saved in output directory(/molpc/output/<NAME>/) of the directory. The outputs include the computed MSAs, unrelaxed structures, relaxed structures, ranked structures, raw model outputs, prediction metadata, and section timings. The output directory will have the following structure:
 
 ```
