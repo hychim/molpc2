@@ -1,0 +1,10 @@
+output/3ONR/mcts/3ONR_final.pdb
+a b c d e f g
+0 0 0 0 0 0 0
+a,b,output/3ONR/pairs/3ONR_0-0-0-0_0_0-0_B-D.pdb
+b,c,output/3ONR/pairs/3ONR_0-0-0-0_4_0-0_C-D.pdb
+c,d,output/3ONR/pairs/3ONR_0-0-0-0_0_0-0_C-D.pdb
+d,e,output/3ONR/pairs/3ONR_0-0-0-0_0_0-0_B-C.pdb
+e,f,output/3ONR/pairs/3ONR_0-0-0-0_0_0-0_C-D.pdb
+f,g,output/3ONR/pairs/3ONR_0-0-0-0_2_0-0_C-D.pdb
+d, f,output/3ONR/pairs/3ONR_0-0-0-0_4_0-0_C-D.pdb

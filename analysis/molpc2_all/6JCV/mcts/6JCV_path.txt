@@ -1,0 +1,17 @@
+output/6JCV/mcts/6JCV_final.pdb
+a b c d e f g h i j k l m n o
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+b,c,output/6JCV/pairs/6JCV_0-0-0-0_4_0-0_C-E.pdb
+c,d,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_D-E.pdb
+d,e,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_B-C.pdb
+e,f,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+f,g,output/6JCV/pairs/6JCV_0-0-0-0_4_0-0_C-E.pdb
+g,h,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+h,i,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+i,j,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+j,k,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_D-E.pdb
+k,l,output/6JCV/pairs/6JCV_0-0-0-0_4_0-0_B-C.pdb
+l,m,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+m,n,output/6JCV/pairs/6JCV_0-0-0-0_1_0-0_C-D.pdb
+n,o,output/6JCV/pairs/6JCV_0-0-0-0_4_0-0_D-E.pdb

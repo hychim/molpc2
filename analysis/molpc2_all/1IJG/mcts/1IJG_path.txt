@@ -1,0 +1,15 @@
+output/1IJG/mcts/1IJG_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+b,c,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+c,d,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_C-E.pdb
+d,e,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_C-E.pdb
+e,f,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+f,g,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_C-D.pdb
+g,h,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-D.pdb
+h,i,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+i,j,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+j,k,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+k,l,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_B-C.pdb
+i, l,output/1IJG/pairs/1IJG_0-0-0-0_1_0-0_C-E.pdb

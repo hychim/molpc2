@@ -1,0 +1,7 @@
+output/2D3A/mcts/2D3A_final.pdb
+a b c d
+0 0 0 0
+a,b,output/2D3A/pairs/2D3A_0-0-0-0_1_0-0_B-C.pdb
+b,c,output/2D3A/pairs/2D3A_0-0-0-0_3_0-0_D-E.pdb
+c,d,output/2D3A/pairs/2D3A_0-0-0-0_3_0-0_B-E.pdb
+a, b,output/2D3A/pairs/2D3A_0-0-0-0_3_0-0_B-E.pdb

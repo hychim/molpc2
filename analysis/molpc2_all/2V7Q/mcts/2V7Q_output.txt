@@ -1,0 +1,10 @@
+output/2V7Q/2V7Q_final.pdb
+a b c d e f g
+0 1 1 2 0 0 1
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_011_01_BD.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_012_01_BC.pdb
+c, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_012_12_CD.pdb
+d, e, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_001_00_BC.pdb
+e, f, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_001_00_BC.pdb
+f, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_012_01_BC.pdb
+a, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/2V7Q/2V7Q_002_02_BD.pdb

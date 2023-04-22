@@ -1,0 +1,12 @@
+output/1DW9/mcts/1DW9_final.pdb
+a b c d e f g h i
+0 0 0 0 0 0 0 0 0
+a,b,output/1DW9/pairs/1DW9_0-0-0-0_4_0-0_C-E.pdb
+b,c,output/1DW9/pairs/1DW9_0-0-0-0_1_0-0_C-D.pdb
+c,d,output/1DW9/pairs/1DW9_0-0-0-0_0_0-0_B-D.pdb
+d,e,output/1DW9/pairs/1DW9_0-0-0-0_3_0-0_C-E.pdb
+e,f,output/1DW9/pairs/1DW9_0-0-0-0_3_0-0_C-D.pdb
+f,g,output/1DW9/pairs/1DW9_0-0-0-0_0_0-0_D-E.pdb
+g,h,output/1DW9/pairs/1DW9_0-0-0-0_1_0-0_B-D.pdb
+h,i,output/1DW9/pairs/1DW9_0-0-0-0_0_0-0_C-E.pdb
+a, d,output/1DW9/pairs/1DW9_0-0-0-0_3_0-0_C-D.pdb

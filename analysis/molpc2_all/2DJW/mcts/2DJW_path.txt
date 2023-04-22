@@ -1,0 +1,11 @@
+output/2DJW/mcts/2DJW_final.pdb
+a b c d e f g h
+0 0 0 0 0 0 0 0
+a,b,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_C-E.pdb
+b,c,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_B-E.pdb
+c,d,output/2DJW/pairs/2DJW_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_B-D.pdb
+e,f,output/2DJW/pairs/2DJW_0-0-0-0_0_0-0_C-E.pdb
+f,g,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_D-E.pdb
+g,h,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_C-E.pdb
+a, d,output/2DJW/pairs/2DJW_0-0-0-0_2_0-0_B-D.pdb

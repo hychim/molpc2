@@ -1,0 +1,6 @@
+output/6SDZ/mcts/6SDZ_final.pdb
+a b c d
+0 0 0 0
+a,b,output/6SDZ/pairs/6SDZ_0-0-0-0_3_0-0_B-C.pdb
+b,c,output/6SDZ/pairs/6SDZ_0-0-0-0_3_0-0_C-E.pdb
+c,d,output/6SDZ/pairs/6SDZ_0-0-0-0_3_0-0_C-D.pdb

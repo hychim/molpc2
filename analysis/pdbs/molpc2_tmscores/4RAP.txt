@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/4RAP.pdb:1,A:1,B:1,C:1,D:1,E:1,F:1,G:1,H:1,I:1,J:1,K:1,L	4RAP.pdb:1,a:1,c:1,j:1,g:1,b:1,e:1,h:1,i:1,f:1,l:1,k:1,d	0.9629	0.9083	3.85	0.991	0.933	0.991	4589	4872	4589
+#Total CPU time is 275.38 seconds

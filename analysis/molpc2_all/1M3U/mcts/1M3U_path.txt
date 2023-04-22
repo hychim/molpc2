@@ -1,0 +1,13 @@
+output/1M3U/mcts/1M3U_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_B-E.pdb
+b,c,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_C-D.pdb
+c,d,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_D-E.pdb
+e,f,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_B-C.pdb
+f,g,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_C-D.pdb
+g,h,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_D-E.pdb
+h,i,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_B-E.pdb
+i,j,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_B-C.pdb
+g, i,output/1M3U/pairs/1M3U_0-0-0-0_0_0-0_B-E.pdb

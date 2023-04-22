@@ -1,0 +1,6 @@
+output/3DTD/mcts/3DTD_final.pdb
+a b c d
+0 0 0 0
+a,b,output/3DTD/pairs/3DTD_0-0-0-0_4_0-0_D-E.pdb
+b,c,output/3DTD/pairs/3DTD_0-0-0-0_4_0-0_C-D.pdb
+c,d,output/3DTD/pairs/3DTD_0-0-0-0_4_0-0_B-C.pdb

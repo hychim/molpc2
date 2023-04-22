@@ -75,8 +75,8 @@ def dist_comp(chainA, chainB):
 
 def check_overlaps(structure):
     # check only the last chain
-    threshold = 3
-    overlap_percent_threshold = 0.1
+    threshold = 5
+    overlap_percent_threshold = 0.05
     close_end = None
     
     for chain in structure[0]:
@@ -88,8 +88,6 @@ def check_overlaps(structure):
             overlap_percent = len([i for i in dist if i<threshold])/(len(chain))
             if overlap_percent > overlap_percent_threshold:
                 if 0.9> overlap_percent > 0.5:
-                    #print(overlap_percent)
-                    #print(f'close end: {structure[0][last_chain_id].get_id()} and {chain.get_id()}')
                     close_end = chain.get_id()
                 return True, close_end
     return False, close_end
@@ -111,7 +109,7 @@ def count_interface_chain(structure):
         for chainB in structure[0]:
             if chainA.get_id() != chainB.get_id():
                 contact_map = dist_comp(chainA, chainB)
-                if 12 > min(contact_map): # 8 is the threshold for interacting protein
+                if 8 > min(contact_map): # 8 is the threshold for interacting protein
                     num_interface += 1
         num_interface_lst.append(num_interface)
     return num_interface_lst
@@ -121,7 +119,7 @@ def re_name_chain(structure):
     i = 0
 
     for chain in new_structure[0]:
-        chain.id = string.ascii_lowercase[i]
+        chain.id = string.ascii_letters[i]
         i += 1
     return new_structure
 
@@ -136,7 +134,7 @@ def score_complex(structure):
     '''Score all interfaces in the current complex
     '''
     plddt = get_plddt(structure)
-    complex_score =  np.log10(count_interface(structure))*(sum(plddt)/len(plddt))
+    complex_score = np.log10(count_interface(structure))*(sum(plddt)/len(plddt))
     return complex_score
 
 def save_pdb(structure, outpath):
@@ -158,7 +156,7 @@ class MonteCarloTreeSearchNode():
         self.path.append(chain)
 
         self.pdb_path = copy.deepcopy(parent_pdb_path)
-        self.pdb_path.append(string.ascii_lowercase[len(self.path)-1])
+        self.pdb_path.append(string.ascii_letters[len(self.path)-1])
 
         self.children = [] #All nodes branching out from the current
         self._number_of_visits = 0

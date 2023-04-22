@@ -1,0 +1,8 @@
+output/2C41/mcts/2C41_final.pdb
+a b c d e
+0 0 0 0 0
+a,b,output/2C41/pairs/2C41_0-0-0-0_4_0-0_D-E.pdb
+b,c,output/2C41/pairs/2C41_0-0-0-0_4_0-0_B-D.pdb
+c,d,output/2C41/pairs/2C41_0-0-0-0_4_0-0_B-D.pdb
+d,e,output/2C41/pairs/2C41_0-0-0-0_4_0-0_B-D.pdb
+a, b,output/2C41/pairs/2C41_0-0-0-0_1_0-0_B-C.pdb

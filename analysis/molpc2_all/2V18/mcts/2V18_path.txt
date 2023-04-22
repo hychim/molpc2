@@ -1,0 +1,11 @@
+output/2V18/mcts/2V18_final.pdb
+a b c d e f g h
+0 0 0 0 0 0 0 0
+a,b,output/2V18/pairs/2V18_0-0-0-0_4_0-0_B-D.pdb
+b,c,output/2V18/pairs/2V18_0-0-0-0_1_0-0_B-C.pdb
+c,d,output/2V18/pairs/2V18_0-0-0-0_4_0-0_D-E.pdb
+d,e,output/2V18/pairs/2V18_0-0-0-0_4_0-0_D-E.pdb
+e,f,output/2V18/pairs/2V18_0-0-0-0_3_0-0_D-E.pdb
+f,g,output/2V18/pairs/2V18_0-0-0-0_4_0-0_B-D.pdb
+g,h,output/2V18/pairs/2V18_0-0-0-0_4_0-0_D-E.pdb
+b, a,output/2V18/pairs/2V18_0-0-0-0_3_0-0_D-E.pdb

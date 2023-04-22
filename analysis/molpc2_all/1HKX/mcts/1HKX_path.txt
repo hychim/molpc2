@@ -1,0 +1,14 @@
+output/1HKX/mcts/1HKX_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_C-D.pdb
+b,c,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_D-E.pdb
+c,d,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-D.pdb
+e,f,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-C.pdb
+f,g,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-D.pdb
+g,h,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-D.pdb
+h,i,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-C.pdb
+i,j,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_B-C.pdb
+j,k,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_C-D.pdb
+k,l,output/1HKX/pairs/1HKX_0-0-0-0_0_0-0_C-D.pdb

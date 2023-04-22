@@ -1,0 +1,9 @@
+output/1G0U/mcts/1G0U_final.pdb
+a b c d e f
+0 0 0 0 0 0
+a,b,output/1G0U/pairs/1G0U_0-0-0-0_1_0-0_B-C.pdb
+b,c,output/1G0U/pairs/1G0U_0-0-0-0_1_0-0_D-E.pdb
+c,d,output/1G0U/pairs/1G0U_0-0-0-0_1_0-0_B-C.pdb
+d,e,output/1G0U/pairs/1G0U_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/1G0U/pairs/1G0U_0-0-0-0_1_0-0_B-C.pdb
+a, b,output/1G0U/pairs/1G0U_0-0-0-0_4_0-0_B-C.pdb

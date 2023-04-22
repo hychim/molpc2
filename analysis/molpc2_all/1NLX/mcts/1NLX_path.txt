@@ -1,0 +1,9 @@
+output/1NLX/mcts/1NLX_final.pdb
+a b c d e f g
+0 0 0 0 0 0 0
+a,b,output/1NLX/pairs/1NLX_0-0-0-0_2_0-0_B-E.pdb
+b,c,output/1NLX/pairs/1NLX_0-0-0-0_2_0-0_B-D.pdb
+c,d,output/1NLX/pairs/1NLX_0-0-0-0_0_0-0_C-D.pdb
+d,e,output/1NLX/pairs/1NLX_0-0-0-0_4_0-0_C-D.pdb
+e,f,output/1NLX/pairs/1NLX_0-0-0-0_0_0-0_B-E.pdb
+f,g,output/1NLX/pairs/1NLX_0-0-0-0_0_0-0_B-E.pdb

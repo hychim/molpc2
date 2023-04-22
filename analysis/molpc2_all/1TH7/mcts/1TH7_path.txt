@@ -1,0 +1,8 @@
+output/1TH7/mcts/1TH7_final.pdb
+a b c d e f
+0 0 0 0 0 0
+a,b,output/1TH7/pairs/1TH7_0-0-0-0_0_0-0_D-E.pdb
+b,c,output/1TH7/pairs/1TH7_0-0-0-0_0_0-0_D-E.pdb
+c,d,output/1TH7/pairs/1TH7_0-0-0-0_0_0-0_C-D.pdb
+d,e,output/1TH7/pairs/1TH7_0-0-0-0_0_0-0_D-E.pdb
+e,f,output/1TH7/pairs/1TH7_0-0-0-0_0_0-0_D-E.pdb

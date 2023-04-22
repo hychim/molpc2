@@ -1,0 +1,10 @@
+output/6RD7/mcts/6RD7_final.pdb
+a b c d e f g h
+0 0 0 0 0 0 0 0
+a,b,output/6RD7/pairs/6RD7_0-0-0-0_3_0-0_D-E.pdb
+b,c,output/6RD7/pairs/6RD7_0-0-0-0_4_0-0_C-E.pdb
+c,d,output/6RD7/pairs/6RD7_0-0-0-0_4_0-0_B-E.pdb
+d,e,output/6RD7/pairs/6RD7_0-0-0-0_3_0-0_D-E.pdb
+e,f,output/6RD7/pairs/6RD7_0-0-0-0_4_0-0_C-E.pdb
+f,g,output/6RD7/pairs/6RD7_0-0-0-0_3_0-0_C-E.pdb
+g,h,output/6RD7/pairs/6RD7_0-0-0-0_4_0-0_C-E.pdb

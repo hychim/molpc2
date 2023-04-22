@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/1KB9.pdb:1,A:1,B:1,C:1,D:1,E:1,F:1,G:1,H:1,I:1,J:1,K	1KB9.pdb:1,B:1,E:1,F:1,G:1,H:1,I:1,J:1,K:1,L:1,C:1,D	0.8823	0.8823	3.13	0.904	0.904	0.991	2180	2180	1989
+#Total CPU time is 29.02 seconds

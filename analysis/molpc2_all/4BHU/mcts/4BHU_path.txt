@@ -1,0 +1,14 @@
+output/4BHU/mcts/4BHU_final.pdb
+a b c d e f g h i j k
+0 0 0 1 0 0 1 0 0 1 0
+a,b,output/4BHU/pairs/4BHU_0-0-0-0_2_0-0_B-D.pdb
+b,c,output/4BHU/pairs/4BHU_0-0-0-0_3_0-0_B-E.pdb
+c,d,output/4BHU/pairs/4BHU_0-0-1-1_0_0-1_C-D.pdb
+d,e,output/4BHU/pairs/4BHU_0-0-0-1_3_0-1_D-E.pdb
+e,f,output/4BHU/pairs/4BHU_0-0-0-0_3_0-0_C-E.pdb
+f,g,output/4BHU/pairs/4BHU_0-0-0-1_2_0-1_D-E.pdb
+g,h,output/4BHU/pairs/4BHU_0-0-0-0_2_0-0_B-C.pdb
+h,i,output/4BHU/pairs/4BHU_0-0-0-0_1_0-0_B-E.pdb
+i,j,output/4BHU/pairs/4BHU_0-0-1-1_4_0-1_C-E.pdb
+j,k,output/4BHU/pairs/4BHU_0-0-0-1_3_0-1_B-E.pdb
+f, g,output/4BHU/pairs/4BHU_0-0-0-1_4_0-0_C-D.pdb

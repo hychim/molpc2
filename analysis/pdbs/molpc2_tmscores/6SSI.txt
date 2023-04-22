@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/6SSI.pdb:1,A:1,B:1,C:1,D:1,E:1,G:1,H:1,I:1,F:1,J:	6SSI.pdb:1,a:1,e:1,d:1,c:1,b:1,h:1,f:1,i:::1,g	0.7366	0.7390	3.98	0.710	0.713	0.914	2081	2074	1617
+#Total CPU time is 17.09 seconds

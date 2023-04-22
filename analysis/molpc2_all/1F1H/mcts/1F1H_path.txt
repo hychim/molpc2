@@ -1,0 +1,15 @@
+output/1F1H/mcts/1F1H_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_B-E.pdb
+b,c,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_B-E.pdb
+c,d,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_B-C.pdb
+d,e,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_C-D.pdb
+e,f,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_C-E.pdb
+f,g,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_D-E.pdb
+g,h,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_B-E.pdb
+h,i,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_D-E.pdb
+i,j,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_C-E.pdb
+j,k,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_B-C.pdb
+k,l,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_C-E.pdb
+a, l,output/1F1H/pairs/1F1H_0-0-0-0_2_0-0_C-D.pdb

@@ -1,0 +1,13 @@
+output/1A8R/mcts/1A8R_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_B-D.pdb
+b,c,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_B-C.pdb
+c,d,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_C-E.pdb
+e,f,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_B-D.pdb
+f,g,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_D-E.pdb
+g,h,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_C-D.pdb
+h,i,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_C-E.pdb
+i,j,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_B-C.pdb
+f, h,output/1A8R/pairs/1A8R_0-0-0-0_0_0-0_C-E.pdb

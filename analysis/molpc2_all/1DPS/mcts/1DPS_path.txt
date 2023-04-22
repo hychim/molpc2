@@ -1,0 +1,4 @@
+output/1DPS/mcts/1DPS_final.pdb
+a b
+0 0
+a,b,output/1DPS/pairs/1DPS_0-0-0-0_3_0-0_D-E.pdb

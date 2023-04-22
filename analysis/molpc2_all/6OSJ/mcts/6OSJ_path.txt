@@ -1,0 +1,17 @@
+output/6OSJ/mcts/6OSJ_final.pdb
+a b c d e f g h i j k l m n
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/6OSJ/pairs/6OSJ_0-0-0-0_4_0-0_B-D.pdb
+b,c,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_D-E.pdb
+c,d,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_B-E.pdb
+e,f,output/6OSJ/pairs/6OSJ_0-0-0-0_1_0-0_C-E.pdb
+f,g,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_B-C.pdb
+g,h,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_B-C.pdb
+h,i,output/6OSJ/pairs/6OSJ_0-0-0-0_1_0-0_B-E.pdb
+i,j,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_C-D.pdb
+j,k,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_D-E.pdb
+k,l,output/6OSJ/pairs/6OSJ_0-0-0-0_2_0-0_B-C.pdb
+l,m,output/6OSJ/pairs/6OSJ_0-0-0-0_0_0-0_C-D.pdb
+m,n,output/6OSJ/pairs/6OSJ_0-0-0-0_1_0-0_C-D.pdb
+e, f,output/6OSJ/pairs/6OSJ_0-0-0-0_1_0-0_C-E.pdb

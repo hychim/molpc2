@@ -1,0 +1,12 @@
+output/3TXQ/mcts/3TXQ_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_B-D.pdb
+b,c,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_B-D.pdb
+c,d,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_C-D.pdb
+d,e,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_B-D.pdb
+e,f,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_B-E.pdb
+f,g,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_C-E.pdb
+g,h,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_C-D.pdb
+h,i,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_C-E.pdb
+i,j,output/3TXQ/pairs/3TXQ_0-0-0-0_4_0-0_B-E.pdb

@@ -1,0 +1,14 @@
+output/2FKD/mcts/2FKD_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-E.pdb
+b,c,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-C.pdb
+c,d,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-E.pdb
+d,e,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_C-D.pdb
+e,f,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-D.pdb
+f,g,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_D-E.pdb
+g,h,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-D.pdb
+h,i,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_D-E.pdb
+i,j,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-C.pdb
+j,k,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-E.pdb
+k,l,output/2FKD/pairs/2FKD_0-0-0-0_3_0-0_B-C.pdb

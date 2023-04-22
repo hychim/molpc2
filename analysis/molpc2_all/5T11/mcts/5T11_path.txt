@@ -1,0 +1,14 @@
+output/5T11/mcts/5T11_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+b,c,output/5T11/pairs/5T11_0-0-0-0_1_0-0_B-C.pdb
+c,d,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/5T11/pairs/5T11_0-0-0-0_1_0-0_D-E.pdb
+e,f,output/5T11/pairs/5T11_0-0-0-0_1_0-0_B-C.pdb
+f,g,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+g,h,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+h,i,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+i,j,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+j,k,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb
+k,l,output/5T11/pairs/5T11_0-0-0-0_1_0-0_C-D.pdb

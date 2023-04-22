@@ -1,0 +1,8 @@
+output/2YMD/mcts/2YMD_final.pdb
+a b c d e
+0 0 0 0 0
+a,b,output/2YMD/pairs/2YMD_0-0-0-0_3_0-0_C-D.pdb
+b,c,output/2YMD/pairs/2YMD_0-0-0-0_3_0-0_C-D.pdb
+c,d,output/2YMD/pairs/2YMD_0-0-0-0_3_0-0_B-C.pdb
+d,e,output/2YMD/pairs/2YMD_0-0-0-0_3_0-0_B-E.pdb
+c, e,output/2YMD/pairs/2YMD_0-0-0-0_3_0-0_B-C.pdb

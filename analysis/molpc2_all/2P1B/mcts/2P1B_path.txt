@@ -1,0 +1,8 @@
+output/2P1B/mcts/2P1B_final.pdb
+a b c d e
+0 0 0 0 0
+a,b,output/2P1B/pairs/2P1B_0-0-0-0_1_0-0_B-E.pdb
+b,c,output/2P1B/pairs/2P1B_0-0-0-0_1_0-0_D-E.pdb
+c,d,output/2P1B/pairs/2P1B_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/2P1B/pairs/2P1B_0-0-0-0_1_0-0_B-E.pdb
+a, d,output/2P1B/pairs/2P1B_0-0-0-0_1_0-0_B-C.pdb

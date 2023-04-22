@@ -1,0 +1,13 @@
+output/5B04/5B04_final.pdb
+a b c d e f g h i j
+0 1 4 3 1 4 3 0 0 3
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_012_01_BC.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_014_14_CD.pdb
+c, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_013_13_CD.pdb
+d, e, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_011_11_CD.pdb
+e, f, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_014_14_CD.pdb
+f, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_013_13_CD.pdb
+g, h, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_000_00_BD.pdb
+h, i, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_000_00_BD.pdb
+i, j, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_003_03_BD.pdb
+i, j, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5B04/5B04_011_01_BD.pdb

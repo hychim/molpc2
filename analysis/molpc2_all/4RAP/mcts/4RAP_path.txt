@@ -1,0 +1,14 @@
+output/4RAP/mcts/4RAP_final.pdb
+a b c d e f g h i j k l
+0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_B-E.pdb
+b,c,output/4RAP/pairs/4RAP_0-0-0-0_4_0-0_C-D.pdb
+c,d,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_B-E.pdb
+d,e,output/4RAP/pairs/4RAP_0-0-0-0_4_0-0_C-D.pdb
+e,f,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_D-E.pdb
+f,g,output/4RAP/pairs/4RAP_0-0-0-0_4_0-0_B-C.pdb
+g,h,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_D-E.pdb
+h,i,output/4RAP/pairs/4RAP_0-0-0-0_4_0-0_B-C.pdb
+i,j,output/4RAP/pairs/4RAP_0-0-0-0_4_0-0_C-D.pdb
+j,k,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_B-E.pdb
+k,l,output/4RAP/pairs/4RAP_0-0-0-0_1_0-0_B-C.pdb

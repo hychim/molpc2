@@ -1,0 +1,5 @@
+output/6Z16/6Z16_final.pdb
+a b c
+0 1 2
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6Z16/6Z16_001_01_BD.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6Z16/6Z16_002_02_BD.pdb

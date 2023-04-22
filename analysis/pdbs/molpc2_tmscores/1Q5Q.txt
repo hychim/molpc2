@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/1Q5Q.pdb:1,B:1,C:1,D:1,E:1,G:1,H:1,I:1,J:1,K:1,L:1,M:1,A:1,F:1,N:::::	1Q5Q.pdb:1,d:1,f:1,c:1,a:1,e:1,n:1,o:1,p:1,l:1,b:1,h::::1,g:1,i:1,j:1,k:1,m	0.4799	0.3820	7.67	0.445	0.349	0.812	3101	3952	1699
+#Total CPU time is 54.18 seconds

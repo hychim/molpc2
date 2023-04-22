@@ -1,0 +1,13 @@
+output/7JQZ/mcts/7JQZ_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-D.pdb
+b,c,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_D-E.pdb
+c,d,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_C-D.pdb
+d,e,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-E.pdb
+e,f,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_C-D.pdb
+f,g,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-C.pdb
+g,h,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_C-D.pdb
+h,i,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-C.pdb
+i,j,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-C.pdb
+d, h,output/7JQZ/pairs/7JQZ_0-0-0-0_0_0-0_B-E.pdb

@@ -1,0 +1,9 @@
+output/3FP9/mcts/3FP9_final.pdb
+a b c d e f
+0 0 0 0 0 0
+a,b,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_B-C.pdb
+b,c,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_C-D.pdb
+c,d,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_C-D.pdb
+d,e,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_D-E.pdb
+e,f,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_D-E.pdb
+f, b,output/3FP9/pairs/3FP9_0-0-0-0_3_0-0_B-C.pdb

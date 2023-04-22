@@ -1,0 +1,13 @@
+output/1X0R/mcts/1X0R_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_C-D.pdb
+b,c,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-C.pdb
+c,d,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-C.pdb
+d,e,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-D.pdb
+e,f,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-E.pdb
+f,g,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_D-E.pdb
+g,h,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-D.pdb
+h,i,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-E.pdb
+i,j,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-C.pdb
+d, i,output/1X0R/pairs/1X0R_0-0-0-0_0_0-0_B-E.pdb

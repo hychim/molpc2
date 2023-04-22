@@ -1,0 +1,28 @@
+output/6S5L/mcts/6S5L_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-C.pdb
+b,c,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-E.pdb
+c,d,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/6S5L/pairs/6S5L_0-0-0-0_1_0-0_C-E.pdb
+e,f,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_D-E.pdb
+f,g,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_C-D.pdb
+g,h,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_C-E.pdb
+h,i,output/6S5L/pairs/6S5L_0-0-0-0_1_0-0_D-E.pdb
+i,j,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-E.pdb
+j,k,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_C-D.pdb
+k,l,output/6S5L/pairs/6S5L_0-0-0-0_4_0-0_B-C.pdb
+l,m,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_B-E.pdb
+m,n,output/6S5L/pairs/6S5L_0-0-0-0_4_0-0_D-E.pdb
+n,o,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-E.pdb
+o,p,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_C-D.pdb
+p,q,output/6S5L/pairs/6S5L_0-0-0-0_1_0-0_B-E.pdb
+q,r,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_C-D.pdb
+r,s,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_C-D.pdb
+s,t,output/6S5L/pairs/6S5L_0-0-0-0_1_0-0_C-E.pdb
+t,u,output/6S5L/pairs/6S5L_0-0-0-0_3_0-0_B-D.pdb
+u,v,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-E.pdb
+v,w,output/6S5L/pairs/6S5L_0-0-0-0_1_0-0_D-E.pdb
+w,x,output/6S5L/pairs/6S5L_0-0-0-0_2_0-0_B-E.pdb
+x,y,output/6S5L/pairs/6S5L_0-0-0-0_3_0-0_B-D.pdb
+y,z,output/6S5L/pairs/6S5L_0-0-0-0_0_0-0_B-E.pdb

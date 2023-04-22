@@ -1,0 +1,6 @@
+output/5NFR/mcts/5NFR_final.pdb
+a b c d
+0 0 0 0
+a,b,output/5NFR/pairs/5NFR_0-0-0-0_0_0-0_B-E.pdb
+b,c,output/5NFR/pairs/5NFR_0-0-0-0_0_0-0_B-D.pdb
+c,d,output/5NFR/pairs/5NFR_0-0-0-0_0_0-0_C-E.pdb

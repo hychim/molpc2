@@ -1,0 +1,7 @@
+output/1VDM/mcts/1VDM_final.pdb
+a b c d
+0 0 0 0
+a,b,output/1VDM/pairs/1VDM_0-0-0-0_3_0-0_D-E.pdb
+b,c,output/1VDM/pairs/1VDM_0-0-0-0_2_0-0_C-D.pdb
+c,d,output/1VDM/pairs/1VDM_0-0-0-0_2_0-0_B-C.pdb
+a, d,output/1VDM/pairs/1VDM_0-0-0-0_3_0-0_C-D.pdb

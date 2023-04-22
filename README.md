@@ -80,6 +80,7 @@ Usage: pipeline.sh <OPTIONS>
 Required Parameters:
 -f <fasta_path>       Path to fasta file with all unique chain(s), e.g. data/2BL2.fasta
 Optional Parameters:
+-o <output>           Output path(default: ./output)
 -m <mer>              Number of chains of the sub-unit predicted from the AlphaFold. (default: 3)
 -d <alphafold_data>   Path to directory of AlphaFold supporting data. (default: ../alphafold_data_v2.3)
 -c <moves>            Maximum moves in monte carlo tree search, if your complexes have more than 30 chains, please increase the no. of moves. (default: 30)
@@ -95,6 +96,7 @@ The outputs will be saved in output directory(/molpc/output/<NAME>/) of the dire
 <NAME>
 ├── <NAME>_imp.pdb
 ├── <NAME>_mcts.pdb
+├── <NAME>_stiochiometry.fasta
 ├── fasta_trimer
 │   └── <NAME>_{XXX}.fasta
 ├── imp
@@ -113,6 +115,7 @@ The outputs will be saved in output directory(/molpc/output/<NAME>/) of the dire
 The contents of each output file are as follows:
  - `<NAME>_imp.pdb` - Final model from IMP
  - `<NAME>_mcts.pdb` - Final model from the Monte Carlo Tree Search
+ - `<NAME>_stoichiometry.fasta` - Predicted stoichiometry from MCTS in fasta format
  - `fasta_trimer/<NAME>_{X-X-X}.fasta` - Combination of the input fasta. The <NAME> is the input fasta file name. The {X-X-X is the combination of unique chain. For example, for trimer that have 1 unique chain 0 and 2 unique chain 1, {X-X-X} will be {0-1-1}.
  - `trimer/<NAME>_{X-X-X}_{rank}.pdb` - Trimer structure predicted from AlphaFold. The {X-X-X} is the combination of unique chain. The {rank} is the rank order from AlphaFold.
  - `pairs<NAME>_{X-X-X}_{rank}_{Y-Y}_{Z-Z}.pdb` - Protein pairs that extracted from trimer. {Y-Y} is the interacting unique chain pairs, for example {0-0}. {Z-Z} is the interacting chain name, for example {B-C}.

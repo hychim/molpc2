@@ -1,0 +1,13 @@
+output/2WCV/mcts/2WCV_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/2WCV/pairs/2WCV_0-0-0-0_1_0-0_C-D.pdb
+b,c,output/2WCV/pairs/2WCV_0-0-0-0_4_0-0_B-D.pdb
+c,d,output/2WCV/pairs/2WCV_0-0-0-0_4_0-0_B-C.pdb
+d,e,output/2WCV/pairs/2WCV_0-0-0-0_1_0-0_B-C.pdb
+e,f,output/2WCV/pairs/2WCV_0-0-0-0_4_0-0_B-C.pdb
+f,g,output/2WCV/pairs/2WCV_0-0-0-0_1_0-0_B-C.pdb
+g,h,output/2WCV/pairs/2WCV_0-0-0-0_4_0-0_C-E.pdb
+h,i,output/2WCV/pairs/2WCV_0-0-0-0_1_0-0_C-D.pdb
+i,j,output/2WCV/pairs/2WCV_0-0-0-0_1_0-0_C-E.pdb
+b, j,output/2WCV/pairs/2WCV_0-0-0-0_4_0-0_C-E.pdb

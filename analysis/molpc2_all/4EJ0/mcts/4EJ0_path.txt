@@ -1,0 +1,8 @@
+output/4EJ0/mcts/4EJ0_final.pdb
+a b c d e
+0 0 0 0 0
+a,b,output/4EJ0/pairs/4EJ0_0-0-0-0_0_0-0_C-D.pdb
+b,c,output/4EJ0/pairs/4EJ0_0-0-0-0_4_0-0_B-C.pdb
+c,d,output/4EJ0/pairs/4EJ0_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/4EJ0/pairs/4EJ0_0-0-0-0_0_0-0_B-C.pdb
+a, c,output/4EJ0/pairs/4EJ0_0-0-0-0_0_0-0_B-C.pdb

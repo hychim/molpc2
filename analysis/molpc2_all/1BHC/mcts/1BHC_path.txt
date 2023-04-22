@@ -1,0 +1,16 @@
+output/1BHC/mcts/1BHC_final.pdb
+a b c d e f g h i j k l m
+0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/1BHC/pairs/1BHC_0-0-0-0_4_0-0_C-D.pdb
+b,c,output/1BHC/pairs/1BHC_0-0-0-0_1_0-0_D-E.pdb
+c,d,output/1BHC/pairs/1BHC_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_D-E.pdb
+e,f,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_B-C.pdb
+f,g,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_C-D.pdb
+g,h,output/1BHC/pairs/1BHC_0-0-0-0_0_0-0_D-E.pdb
+h,i,output/1BHC/pairs/1BHC_0-0-0-0_0_0-0_B-E.pdb
+i,j,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_D-E.pdb
+j,k,output/1BHC/pairs/1BHC_0-0-0-0_0_0-0_B-E.pdb
+k,l,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_B-C.pdb
+l,m,output/1BHC/pairs/1BHC_0-0-0-0_3_0-0_D-E.pdb
+a, f,output/1BHC/pairs/1BHC_0-0-0-0_4_0-0_C-D.pdb

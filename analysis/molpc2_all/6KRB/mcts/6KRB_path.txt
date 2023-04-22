@@ -1,0 +1,6 @@
+output/6KRB/mcts/6KRB_final.pdb
+a b c d
+0 0 0 0
+a,b,output/6KRB/pairs/6KRB_0-0-0-0_4_0-0_C-E.pdb
+b,c,output/6KRB/pairs/6KRB_0-0-0-0_4_0-0_B-E.pdb
+c,d,output/6KRB/pairs/6KRB_0-0-0-0_4_0-0_B-E.pdb

@@ -1,0 +1,28 @@
+output/6SQR/6SQR_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 3 0 1 2 2 1 2 5 3 3 1 2 5 3 3 3 5 5 4 5 4 5 5 5 5
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_034_03_BC.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_000_00_BD.pdb
+c, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_014_01_BC.pdb
+d, e, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_112_12_BD.pdb
+e, f, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_223_22_BC.pdb
+f, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_111_11_CD.pdb
+g, h, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_012_12_CD.pdb
+h, i, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_225_25_CD.pdb
+i, j, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_133_13_BC.pdb
+j, k, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_133_33_CD.pdb
+k, l, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_111_11_CD.pdb
+l, m, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_124_12_BC.pdb
+m, n, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_225_25_CD.pdb
+n, o, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_123_13_BD.pdb
+o, p, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_023_23_CD.pdb
+p, q, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_133_33_CD.pdb
+q, r, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_135_35_CD.pdb
+r, s, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_135_35_CD.pdb
+s, t, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_034_34_CD.pdb
+t, u, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_145_45_CD.pdb
+u, v, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_034_34_CD.pdb
+v, w, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_035_35_CD.pdb
+w, x, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_055_55_CD.pdb
+x, y, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_055_55_CD.pdb
+y, z, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/6SQR/6SQR_055_55_CD.pdb

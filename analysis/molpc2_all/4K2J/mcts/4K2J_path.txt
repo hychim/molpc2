@@ -1,0 +1,10 @@
+output/4K2J/mcts/4K2J_final.pdb
+a b c d e f g h
+0 0 0 0 0 0 0 0
+a,b,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_C-D.pdb
+b,c,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_B-C.pdb
+c,d,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_B-C.pdb
+d,e,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_D-E.pdb
+f,g,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_C-D.pdb
+g,h,output/4K2J/pairs/4K2J_0-0-0-0_1_0-0_C-D.pdb

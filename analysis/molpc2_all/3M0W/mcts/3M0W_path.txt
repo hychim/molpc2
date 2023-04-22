@@ -1,0 +1,28 @@
+output/3M0W/mcts/3M0W_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-E.pdb
+b,c,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_B-C.pdb
+c,d,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/3M0W/pairs/3M0W_0-0-0-0_4_0-0_C-E.pdb
+e,f,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+f,g,output/3M0W/pairs/3M0W_0-0-0-0_4_0-0_B-C.pdb
+g,h,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+h,i,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_D-E.pdb
+i,j,output/3M0W/pairs/3M0W_0-0-0-0_0_0-0_C-D.pdb
+j,k,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-D.pdb
+k,l,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+l,m,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_C-D.pdb
+m,n,output/3M0W/pairs/3M0W_0-0-0-0_0_0-0_B-C.pdb
+n,o,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+o,p,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-E.pdb
+p,q,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+q,r,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-E.pdb
+r,s,output/3M0W/pairs/3M0W_0-0-0-0_0_0-0_D-E.pdb
+s,t,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-D.pdb
+t,u,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-D.pdb
+u,v,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-C.pdb
+v,w,output/3M0W/pairs/3M0W_0-0-0-0_0_0-0_B-E.pdb
+w,x,output/3M0W/pairs/3M0W_0-0-0-0_1_0-0_C-D.pdb
+x,y,output/3M0W/pairs/3M0W_0-0-0-0_2_0-0_B-E.pdb
+y,z,output/3M0W/pairs/3M0W_0-0-0-0_4_0-0_B-C.pdb

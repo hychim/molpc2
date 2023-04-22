@@ -1,0 +1,9 @@
+output/6RKE/mcts/6RKE_final.pdb
+a b c d e f
+0 1 0 1 1 0
+a,b,output/6RKE/pairs/6RKE_0-0-0-1_0_0-1_D-E.pdb
+b,c,output/6RKE/pairs/6RKE_0-0-0-0_4_0-0_C-E.pdb
+c,d,output/6RKE/pairs/6RKE_1-1-1-1_4_1-1_D-E.pdb
+d,e,output/6RKE/pairs/6RKE_1-1-1-1_4_1-1_B-E.pdb
+e,f,output/6RKE/pairs/6RKE_0-0-0-1_0_0-1_D-E.pdb
+a, f,output/6RKE/pairs/6RKE_0-0-0-1_0_0-0_B-D.pdb

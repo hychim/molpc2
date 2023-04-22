@@ -1,0 +1,6 @@
+output/3A2C/3A2C_final.pdb
+a b c
+0 0 0
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3A2C/3A2C_000_00_CD.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3A2C/3A2C_000_00_BC.pdb
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3A2C/3A2C_000_00_BC.pdb

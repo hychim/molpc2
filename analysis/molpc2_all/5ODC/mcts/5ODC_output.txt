@@ -1,0 +1,12 @@
+output/5ODC/5ODC_final.pdb
+a b c d e f g h i j
+0 3 1 4 2 0 2 1 3 4
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_003_03_BD.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_001_01_BD.pdb
+c, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_004_04_CD.pdb
+d, e, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_002_02_CD.pdb
+e, f, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_001_00_BC.pdb
+f, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_002_02_BD.pdb
+g, h, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_001_01_BD.pdb
+h, i, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_003_03_BD.pdb
+i, j, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/5ODC/5ODC_004_04_CD.pdb

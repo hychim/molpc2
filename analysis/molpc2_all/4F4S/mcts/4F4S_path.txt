@@ -1,0 +1,13 @@
+output/4F4S/mcts/4F4S_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_C-D.pdb
+b,c,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_C-D.pdb
+c,d,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_C-D.pdb
+d,e,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_C-D.pdb
+e,f,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_D-E.pdb
+f,g,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_B-C.pdb
+g,h,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_B-C.pdb
+h,i,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_B-C.pdb
+i,j,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_D-E.pdb
+i, j,output/4F4S/pairs/4F4S_0-0-0-0_4_0-0_C-D.pdb

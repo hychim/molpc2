@@ -1,0 +1,11 @@
+output/3ZNU/mcts/3ZNU_final.pdb
+a b c d e f g h i
+0 0 0 0 0 0 0 0 0
+a,b,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-E.pdb
+b,c,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-D.pdb
+c,d,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-D.pdb
+d,e,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-E.pdb
+e,f,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-E.pdb
+f,g,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_D-E.pdb
+g,h,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_B-C.pdb
+h,i,output/3ZNU/pairs/3ZNU_0-0-0-0_4_0-0_C-D.pdb

@@ -1,0 +1,13 @@
+output/3TOS/mcts/3TOS_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_B-E.pdb
+b,c,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_C-E.pdb
+c,d,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_D-E.pdb
+e,f,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_C-E.pdb
+f,g,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_D-E.pdb
+g,h,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_C-D.pdb
+h,i,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_B-C.pdb
+i,j,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_B-C.pdb
+a, g,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_B-E.pdb

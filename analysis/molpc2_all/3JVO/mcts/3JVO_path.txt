@@ -1,0 +1,18 @@
+output/3JVO/mcts/3JVO_final.pdb
+a b c d e f g h i j k l m n o
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/3JVO/pairs/3JVO_0-0-0-0_4_0-0_B-D.pdb
+b,c,output/3JVO/pairs/3JVO_0-0-0-0_4_0-0_C-E.pdb
+c,d,output/3JVO/pairs/3JVO_0-0-0-0_3_0-0_C-D.pdb
+d,e,output/3JVO/pairs/3JVO_0-0-0-0_4_0-0_B-E.pdb
+e,f,output/3JVO/pairs/3JVO_0-0-0-0_1_0-0_C-E.pdb
+f,g,output/3JVO/pairs/3JVO_0-0-0-0_0_0-0_C-D.pdb
+g,h,output/3JVO/pairs/3JVO_0-0-0-0_3_0-0_B-C.pdb
+h,i,output/3JVO/pairs/3JVO_0-0-0-0_3_0-0_B-C.pdb
+i,j,output/3JVO/pairs/3JVO_0-0-0-0_0_0-0_D-E.pdb
+j,k,output/3JVO/pairs/3JVO_0-0-0-0_1_0-0_C-E.pdb
+k,l,output/3JVO/pairs/3JVO_0-0-0-0_3_0-0_B-C.pdb
+l,m,output/3JVO/pairs/3JVO_0-0-0-0_3_0-0_C-D.pdb
+m,n,output/3JVO/pairs/3JVO_0-0-0-0_2_0-0_B-C.pdb
+n,o,output/3JVO/pairs/3JVO_0-0-0-0_1_0-0_B-C.pdb
+a, c,output/3JVO/pairs/3JVO_0-0-0-0_4_0-0_C-D.pdb

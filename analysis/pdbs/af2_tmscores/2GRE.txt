@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/2GRE.pdb:1,A:1,B:1,C:1,D:1,E:1,F:1,G:1,H:1,I:1,J:1,K:1,L::::	2GRE.pdb:1,B:1,G:1,F:1,L:1,D:1,M:1,Q:1,K:1,J:1,H:1,I:1,N:1,C:1,E:1,O:1,P	0.7594	0.5131	8.75	0.567	0.367	0.618	3617	5584	3323
+#Total CPU time is 162.02 seconds

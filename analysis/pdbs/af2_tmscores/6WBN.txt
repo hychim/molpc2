@@ -1,0 +1,3 @@
+#PDBchain1	PDBchain2	TM1	TM2	RMSD	ID1	ID2	IDali	L1	L2	Lali
+/home/hychimaa/workspace/molpc_imp/data/experimental/6WBN.pdb:1,A:1,B:1,C:1,D:1,E:1,F:1,G:1,K:1,N:1,H:1,I:1,J:1,L:1,M:::::	6WBN.pdb:1,L:1,I:1,J:1,N:1,O:1,D:1,H:1,E:1,K::::::1,B:1,C:1,F:1,G:1,M	0.3100	0.2865	10.93	0.333	0.305	0.856	4774	5222	1859
+#Total CPU time is 185.95 seconds

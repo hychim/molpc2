@@ -1,0 +1,28 @@
+output/6N3P/mcts/6N3P_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 0 1 1 0 0 1 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1
+a,b,output/6N3P/pairs/6N3P_0-0-0-0_3_0-0_C-D.pdb
+b,c,output/6N3P/pairs/6N3P_0-0-1-1_0_0-1_C-D.pdb
+c,d,output/6N3P/pairs/6N3P_1-1-1-1_0_1-1_C-D.pdb
+d,e,output/6N3P/pairs/6N3P_0-1-1-1_4_0-1_B-C.pdb
+e,f,output/6N3P/pairs/6N3P_0-0-1-1_0_0-1_C-E.pdb
+f,g,output/6N3P/pairs/6N3P_1-1-1-1_1_1-1_C-E.pdb
+g,h,output/6N3P/pairs/6N3P_0-0-0-1_3_0-1_C-E.pdb
+h,i,output/6N3P/pairs/6N3P_0-0-1-1_0_0-1_C-E.pdb
+i,j,output/6N3P/pairs/6N3P_0-0-0-1_1_0-0_B-D.pdb
+j,k,output/6N3P/pairs/6N3P_0-0-1-1_0_0-1_B-E.pdb
+k,l,output/6N3P/pairs/6N3P_0-1-1-1_1_0-1_B-C.pdb
+l,m,output/6N3P/pairs/6N3P_1-1-1-1_0_1-1_C-D.pdb
+m,n,output/6N3P/pairs/6N3P_1-1-1-1_4_1-1_C-D.pdb
+n,o,output/6N3P/pairs/6N3P_0-1-1-1_1_0-1_B-C.pdb
+o,p,output/6N3P/pairs/6N3P_0-1-1-1_2_1-1_C-D.pdb
+p,q,output/6N3P/pairs/6N3P_0-1-1-1_2_1-1_C-D.pdb
+q,r,output/6N3P/pairs/6N3P_1-1-1-1_4_1-1_B-E.pdb
+r,s,output/6N3P/pairs/6N3P_1-1-1-1_3_1-1_C-D.pdb
+s,t,output/6N3P/pairs/6N3P_1-1-1-1_0_1-1_C-D.pdb
+t,u,output/6N3P/pairs/6N3P_0-1-1-1_2_1-1_C-D.pdb
+u,v,output/6N3P/pairs/6N3P_1-1-1-1_4_1-1_D-E.pdb
+v,w,output/6N3P/pairs/6N3P_1-1-1-1_3_1-1_B-D.pdb
+w,x,output/6N3P/pairs/6N3P_1-1-1-1_0_1-1_B-E.pdb
+x,y,output/6N3P/pairs/6N3P_1-1-1-1_3_1-1_C-E.pdb
+y,z,output/6N3P/pairs/6N3P_0-1-1-1_2_1-1_C-D.pdb

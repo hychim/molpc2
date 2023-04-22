@@ -1,0 +1,16 @@
+output/5OVS/mcts/5OVS_final.pdb
+a b c d e f g h i j k l m n
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_B-C.pdb
+b,c,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-E.pdb
+c,d,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-D.pdb
+d,e,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_D-E.pdb
+e,f,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_B-C.pdb
+f,g,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_B-E.pdb
+g,h,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_B-E.pdb
+h,i,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-E.pdb
+i,j,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-D.pdb
+j,k,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_D-E.pdb
+k,l,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-D.pdb
+l,m,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_C-E.pdb
+m,n,output/5OVS/pairs/5OVS_0-0-0-0_3_0-0_B-C.pdb

@@ -1,0 +1,11 @@
+output/3ZIA/3ZIA_final.pdb
+a b c d e f g h
+0 0 2 1 0 1 1 2
+a, b, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_000_00_CD.pdb
+b, c, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_012_02_BD.pdb
+c, d, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_014_01_BC.pdb
+d, e, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_000_00_BD.pdb
+e, f, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_011_01_BD.pdb
+f, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_011_01_BD.pdb
+g, h, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_012_12_CD.pdb
+a, g, /proj/berzelius-2021-29/users/x_hoych/molpc_imp/src/molpc2/pairs/3ZIA/3ZIA_014_01_BC.pdb

@@ -1,0 +1,8 @@
+output/2OBX/mcts/2OBX_final.pdb
+a b c d e
+0 0 0 0 0
+a,b,output/2OBX/pairs/2OBX_0-0-0-0_4_0-0_C-D.pdb
+b,c,output/2OBX/pairs/2OBX_0-0-0-0_4_0-0_D-E.pdb
+c,d,output/2OBX/pairs/2OBX_0-0-0-0_4_0-0_C-D.pdb
+d,e,output/2OBX/pairs/2OBX_0-0-0-0_4_0-0_D-E.pdb
+b, e,output/2OBX/pairs/2OBX_0-0-0-0_4_0-0_B-C.pdb

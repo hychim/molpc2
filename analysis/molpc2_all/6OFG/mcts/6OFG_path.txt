@@ -1,0 +1,25 @@
+output/6OFG/mcts/6OFG_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_C-D.pdb
+b,c,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-D.pdb
+c,d,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_D-E.pdb
+d,e,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_D-E.pdb
+e,f,output/6OFG/pairs/6OFG_0-0-0-0_2_0-0_D-E.pdb
+f,g,output/6OFG/pairs/6OFG_0-0-0-0_4_0-0_D-E.pdb
+g,h,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-C.pdb
+h,i,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-E.pdb
+i,j,output/6OFG/pairs/6OFG_0-0-0-0_0_0-0_B-D.pdb
+j,k,output/6OFG/pairs/6OFG_0-0-0-0_4_0-0_D-E.pdb
+k,l,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_B-C.pdb
+l,m,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_C-E.pdb
+m,n,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_B-E.pdb
+n,o,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-E.pdb
+o,p,output/6OFG/pairs/6OFG_0-0-0-0_0_0-0_C-E.pdb
+p,q,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_D-E.pdb
+q,r,output/6OFG/pairs/6OFG_0-0-0-0_2_0-0_B-E.pdb
+r,s,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-C.pdb
+s,t,output/6OFG/pairs/6OFG_0-0-0-0_0_0-0_B-D.pdb
+t,u,output/6OFG/pairs/6OFG_0-0-0-0_1_0-0_B-C.pdb
+u,v,output/6OFG/pairs/6OFG_0-0-0-0_3_0-0_B-E.pdb
+g, f,output/6OFG/pairs/6OFG_0-0-0-0_0_0-0_B-E.pdb

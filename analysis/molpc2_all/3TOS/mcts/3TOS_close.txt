@@ -1,0 +1,1 @@
+a, g,output/3TOS/pairs/3TOS_0-0-0-0_1_0-0_B-E.pdb

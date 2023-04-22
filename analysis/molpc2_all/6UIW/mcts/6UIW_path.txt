@@ -1,0 +1,13 @@
+output/6UIW/mcts/6UIW_final.pdb
+a b c d e f g h i j k
+0 0 0 0 0 0 0 0 0 0 0
+a,b,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_B-C.pdb
+b,c,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_D-E.pdb
+c,d,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_D-E.pdb
+d,e,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_C-D.pdb
+f,g,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_B-C.pdb
+g,h,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_D-E.pdb
+h,i,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_B-C.pdb
+i,j,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_C-D.pdb
+j,k,output/6UIW/pairs/6UIW_0-0-0-0_1_0-0_C-D.pdb

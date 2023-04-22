@@ -1,0 +1,16 @@
+output/2X2V/mcts/2X2V_final.pdb
+a b c d e f g h i j k l m n
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+b,c,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+c,d,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+d,e,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+e,f,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-E.pdb
+f,g,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_C-D.pdb
+g,h,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-E.pdb
+h,i,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+i,j,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-E.pdb
+j,k,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb
+k,l,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_C-D.pdb
+l,m,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-E.pdb
+m,n,output/2X2V/pairs/2X2V_0-0-0-0_0_0-0_B-C.pdb

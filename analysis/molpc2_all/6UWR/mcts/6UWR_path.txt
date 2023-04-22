@@ -1,0 +1,9 @@
+output/6UWR/mcts/6UWR_final.pdb
+a b c d e f
+0 0 0 0 0 0
+a,b,output/6UWR/pairs/6UWR_0-0-0-0_4_0-0_B-E.pdb
+b,c,output/6UWR/pairs/6UWR_0-0-0-0_3_0-0_B-D.pdb
+c,d,output/6UWR/pairs/6UWR_0-0-0-0_3_0-0_B-D.pdb
+d,e,output/6UWR/pairs/6UWR_0-0-0-0_4_0-0_B-E.pdb
+e,f,output/6UWR/pairs/6UWR_0-0-0-0_3_0-0_B-D.pdb
+a, c,output/6UWR/pairs/6UWR_0-0-0-0_4_0-0_D-E.pdb

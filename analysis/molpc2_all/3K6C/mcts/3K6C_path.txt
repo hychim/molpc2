@@ -1,0 +1,13 @@
+output/3K6C/mcts/3K6C_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_B-E.pdb
+b,c,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb
+c,d,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_B-C.pdb
+f,g,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb
+g,h,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_B-D.pdb
+h,i,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_B-C.pdb
+i,j,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb
+d, e,output/3K6C/pairs/3K6C_0-0-0-0_1_0-0_C-D.pdb

@@ -1,0 +1,28 @@
+output/5XPB/mcts/5XPB_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_D-E.pdb
+b,c,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+c,d,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_C-D.pdb
+d,e,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+e,f,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_C-D.pdb
+f,g,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_C-D.pdb
+g,h,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_C-D.pdb
+h,i,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+i,j,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_D-E.pdb
+j,k,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+k,l,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+l,m,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+m,n,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_D-E.pdb
+n,o,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+o,p,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+p,q,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+q,r,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+r,s,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+s,t,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+t,u,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+u,v,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+v,w,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+w,x,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+x,y,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb
+y,z,output/5XPB/pairs/5XPB_0-0-0-0_4_0-0_B-C.pdb

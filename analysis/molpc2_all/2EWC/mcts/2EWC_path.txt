@@ -1,0 +1,28 @@
+output/2EWC/mcts/2EWC_final.pdb
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_C-D.pdb
+b,c,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_B-D.pdb
+c,d,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_B-C.pdb
+d,e,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+e,f,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+f,g,output/2EWC/pairs/2EWC_0-0-0-0_4_0-0_B-E.pdb
+g,h,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_D-E.pdb
+h,i,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_C-E.pdb
+i,j,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+j,k,output/2EWC/pairs/2EWC_0-0-0-0_4_0-0_B-C.pdb
+k,l,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_D-E.pdb
+l,m,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+m,n,output/2EWC/pairs/2EWC_0-0-0-0_4_0-0_B-E.pdb
+n,o,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+o,p,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_B-D.pdb
+p,q,output/2EWC/pairs/2EWC_0-0-0-0_4_0-0_B-E.pdb
+q,r,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_C-D.pdb
+r,s,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+s,t,output/2EWC/pairs/2EWC_0-0-0-0_4_0-0_B-C.pdb
+t,u,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_B-D.pdb
+u,v,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_C-E.pdb
+v,w,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_D-E.pdb
+w,x,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_C-E.pdb
+x,y,output/2EWC/pairs/2EWC_0-0-0-0_2_0-0_B-D.pdb
+y,z,output/2EWC/pairs/2EWC_0-0-0-0_0_0-0_C-E.pdb

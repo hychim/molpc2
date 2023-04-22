@@ -1,0 +1,12 @@
+output/3N99/mcts/3N99_final.pdb
+a b c d e f g h i
+0 0 0 0 0 0 0 0 0
+a,b,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-E.pdb
+b,c,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-D.pdb
+c,d,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-E.pdb
+d,e,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/3N99/pairs/3N99_0-0-0-0_3_0-0_C-D.pdb
+f,g,output/3N99/pairs/3N99_0-0-0-0_3_0-0_D-E.pdb
+g,h,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-E.pdb
+h,i,output/3N99/pairs/3N99_0-0-0-0_1_0-0_C-D.pdb
+a, c,output/3N99/pairs/3N99_0-0-0-0_3_0-0_C-D.pdb

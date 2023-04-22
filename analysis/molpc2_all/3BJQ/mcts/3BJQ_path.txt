@@ -1,0 +1,12 @@
+output/3BJQ/mcts/3BJQ_final.pdb
+a b c d e f g h i
+0 0 0 0 0 0 0 0 0
+a,b,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_C-D.pdb
+b,c,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_B-E.pdb
+c,d,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_C-D.pdb
+d,e,output/3BJQ/pairs/3BJQ_0-0-0-0_0_0-0_B-C.pdb
+e,f,output/3BJQ/pairs/3BJQ_0-0-0-0_0_0-0_B-C.pdb
+f,g,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_B-E.pdb
+g,h,output/3BJQ/pairs/3BJQ_0-0-0-0_0_0-0_B-C.pdb
+h,i,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_C-E.pdb
+a, c,output/3BJQ/pairs/3BJQ_0-0-0-0_2_0-0_B-D.pdb

@@ -1,0 +1,12 @@
+output/6QLV/mcts/6QLV_final.pdb
+a b c d e f g h i
+0 0 0 0 0 0 0 0 0
+a,b,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb
+b,c,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb
+c,d,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_C-D.pdb
+d,e,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb
+e,f,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-C.pdb
+f,g,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb
+g,h,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb
+h,i,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_C-D.pdb
+a, c,output/6QLV/pairs/6QLV_0-0-0-0_1_0-0_B-D.pdb

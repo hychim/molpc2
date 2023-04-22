@@ -1,0 +1,9 @@
+output/1VF7/mcts/1VF7_final.pdb
+a b c d e f
+0 0 0 0 0 0
+a,b,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_B-C.pdb
+b,c,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_C-D.pdb
+c,d,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_D-E.pdb
+d,e,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_D-E.pdb
+e,f,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_C-D.pdb
+e, d,output/1VF7/pairs/1VF7_0-0-0-0_0_0-0_B-C.pdb

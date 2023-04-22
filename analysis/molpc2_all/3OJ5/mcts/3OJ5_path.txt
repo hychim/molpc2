@@ -1,0 +1,23 @@
+output/3OJ5/mcts/3OJ5_final.pdb
+a b c d e f g h i j k l m n o p q r s t
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+a,b,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-E.pdb
+b,c,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+c,d,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_D-E.pdb
+d,e,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+e,f,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-E.pdb
+f,g,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_B-C.pdb
+g,h,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_B-C.pdb
+h,i,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+i,j,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+j,k,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+k,l,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_B-C.pdb
+l,m,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_B-C.pdb
+m,n,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+n,o,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+o,p,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-E.pdb
+p,q,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_D-E.pdb
+q,r,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_D-E.pdb
+r,s,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-D.pdb
+s,t,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_D-E.pdb
+d, l,output/3OJ5/pairs/3OJ5_0-0-0-0_1_0-0_C-E.pdb

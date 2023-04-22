@@ -1,0 +1,9 @@
+output/6QSU/mcts/6QSU_final.pdb
+a b c d e f
+0 1 1 0 1 0
+a,b,output/6QSU/pairs/6QSU_0-1-1-1_2_0-1_B-C.pdb
+b,c,output/6QSU/pairs/6QSU_0-0-1-1_1_0-1_B-D.pdb
+c,d,output/6QSU/pairs/6QSU_0-1-1-1_2_0-1_B-E.pdb
+d,e,output/6QSU/pairs/6QSU_0-1-1-1_2_0-1_B-C.pdb
+e,f,output/6QSU/pairs/6QSU_0-0-0-1_3_0-0_B-D.pdb
+a, d,output/6QSU/pairs/6QSU_0-0-0-0_0_0-0_B-C.pdb

@@ -1,0 +1,7 @@
+output/1D0I/mcts/1D0I_final.pdb
+a b c d
+0 0 0 0
+a,b,output/1D0I/pairs/1D0I_0-0-0-0_0_0-0_C-D.pdb
+b,c,output/1D0I/pairs/1D0I_0-0-0-0_0_0-0_C-E.pdb
+c,d,output/1D0I/pairs/1D0I_0-0-0-0_0_0-0_B-E.pdb
+a, b,output/1D0I/pairs/1D0I_0-0-0-0_4_0-0_C-D.pdb
