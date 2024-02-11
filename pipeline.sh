@@ -13,13 +13,14 @@ help() {
 		echo "-d <alphafold_data>   Path to directory of AlphaFold supporting data. (default: ../alphafold_data_v2.3)"
 		echo "-c <moves>            Maximum moves in monte carlo tree search, if your complexes have more than 30 chains, please increase the no. of moves. (default: 30)"
 		echo "-s <steps>            Number of simulations in each moves in mcts, more the steps, more accurate the modeling will be. (default: 50)"
+		echo "-i <stoichiometry>    Remodel the final structure with AlphaFold (AF), IMP (IMP) or no re-modeling(False) (default: 'False')"
 		echo "-r <remodel>          Remodel the final structure with AlphaFold (AF), IMP (IMP) or no re-modeling(False) (default: 'False')"
         echo ""
         exit 1
 }
 
 ############################################################
-while getopts h:f:o:m:d:c:s:r: flag
+while getopts h:f:o:m:d:c:s:i:r: flag
 do
     case "${flag}" in
 		h) usage;;
@@ -29,6 +30,7 @@ do
         d) AF_DATA=${OPTARG};;
         c) MOVES=${OPTARG};;
         s) STEPS=${OPTARG};;
+		i) STOI=${OPTARG};;
         r) REMODEL=${OPTARG};;
     esac
 done
@@ -55,6 +57,10 @@ fi
 
 if [[ "$STEPS" == "" ]] ; then
     STEPS='50'
+fi
+
+if [[ "$STOI" == "" ]] ; then
+    STOI='None'
 fi
 
 if [[ "$REMODEL" == "" ]] ; then
@@ -103,7 +109,7 @@ echo 'Pairs converting done'
 
 ### MCTS
 echo 'Start MCTS'
-python src/mcts/mcts.py --id $NAME --pairs_dir $OUTPUT/$NAME/pairs/ --output $OUTPUT/$NAME/mcts/ --moves $MOVES --steps $STEPS
+python src/mcts/mcts.py --id $NAME --pairs_dir $OUTPUT/$NAME/pairs/ --output $OUTPUT/$NAME/mcts/ --moves $MOVES --steps $STEPS --stoi $STOI
 cp $OUTPUT/$NAME/mcts/$NAME'_final.pdb' $OUTPUT/$NAME/$NAME'_mcts.pdb'
 python src/mcts/write_stoi.py --input $OUTPUT/$NAME/mcts/$NAME'_path.txt' --fasta $FASTA --ID $NAME --output $OUTPUT
 echo 'MCTS done'

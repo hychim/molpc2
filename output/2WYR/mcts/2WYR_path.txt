@@ -1,8 +1,0 @@
-output/2WYR/mcts/2WYR_final.pdb
-a b c d e f
-0 0 0 0 0 0
-a,b,output/2WYR/pairs/2WYR_0-0-0-0_4_0-0_D-E.pdb
-b,c,output/2WYR/pairs/2WYR_0-0-0-0_0_0-0_C-D.pdb
-c,d,output/2WYR/pairs/2WYR_0-0-0-0_4_0-0_D-E.pdb
-d,e,output/2WYR/pairs/2WYR_0-0-0-0_0_0-0_C-D.pdb
-e,f,output/2WYR/pairs/2WYR_0-0-0-0_4_0-0_D-E.pdb

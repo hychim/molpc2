@@ -1,0 +1,13 @@
+output/5BSE/mcts/5BSE_final.pdb
+a b c d e f g h i j
+0 0 0 0 0 0 0 0 0 0
+a,b,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-E.pdb
+b,c,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-C.pdb
+c,d,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_C-D.pdb
+d,e,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-D.pdb
+e,f,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-D.pdb
+f,g,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-C.pdb
+g,h,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_C-D.pdb
+h,i,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-D.pdb
+i,j,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-E.pdb
+d, j,output/5BSE/pairs/5BSE_0-0-0-0_0_0-0_B-E.pdb

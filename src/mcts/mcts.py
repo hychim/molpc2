@@ -7,14 +7,13 @@ from collections import Counter, defaultdict
 from Bio.PDB import PDBParser, Superimposer, PDBIO
 import string
 
-import argparse
-
 argument_parser = argparse.ArgumentParser(description = '''Search for assemble path''')
 argument_parser.add_argument('--id', type=str, help = 'Path to pdb files.')
 argument_parser.add_argument('--pairs_dir', type=str, help = 'Path to pdb files.')
 argument_parser.add_argument('--steps', type=int, help = 'No. of simluation steps for each moves.')
 argument_parser.add_argument('--moves', type=int, help = 'No. of moves.')
 argument_parser.add_argument('--output', type=str, help = 'Output')
+argument_parser.add_argument('--stoi', type=str, help = 'Known stoichiometry')
 args = argument_parser.parse_args()
 
 # define pdb parser and superimposer for biopython pdb
@@ -22,6 +21,14 @@ parser = PDBParser()
 super_imposer = Superimposer()
 # define all sources and edges
 output = args.output
+if args.stoi == 'None':
+    stoi_dict = None
+else:
+    stoi = args.stoi.split(':')
+    stoi_dict = {}
+    for i in stoi:        
+        stoi_dict[str(string.ascii_uppercase.find(i[-1]))] = int(i[:-1])
+
 pairs_dir = args.pairs_dir + "*"
 pair_paths = glob.glob(pairs_dir)
 
@@ -160,16 +167,19 @@ class MonteCarloTreeSearchNode():
 
         self.children = [] #All nodes branching out from the current
         self._number_of_visits = 0
+        self.stoi = stoi_dict
         
         #self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges_all()
+
+        self.early_stop = False
+        self.close_end = None
 
         if self.structure == None:
             self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges_all()
         else:
             self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA = self.get_possible_edges()
-
-        self.early_stop = False
-        self.close_end = None
+            if self.stoi != None:
+                self._untried_edges, self._untried_edges_pdb, self._untried_sources, self._untried_edgesA  = self.possible_edges_stoi_filter()
         return
 
     def get_possible_edges_all(self):
@@ -216,6 +226,24 @@ class MonteCarloTreeSearchNode():
                 untried_edgesA.append(shortlisted_pdb_path[j])
 
         return untried_edges, untried_edges_pdb, untried_sources, untried_edgesA
+
+    def possible_edges_stoi_filter(self):
+        filtered_untried_edges = []
+        filtered_untried_edges_pdb = []
+        filtered_untried_sources = []
+        filtered_untried_edgesA = []
+
+        path_count = Counter(self.path)
+        for chain in path_count:
+            if path_count.get(chain) < stoi_dict.get(chain):
+                for i in range(len(self._untried_edges)):
+                    if self._untried_edges[i][1] == chain:
+                        filtered_untried_edges.append(self._untried_edges[i])
+                        filtered_untried_edges_pdb.append(self._untried_edges_pdb[i])
+                        filtered_untried_sources.append(self._untried_sources[i])
+                        filtered_untried_edgesA.append(self._untried_edgesA[i])
+
+        return filtered_untried_edges, filtered_untried_edges_pdb, filtered_untried_sources, filtered_untried_edgesA
 
     def expand(self):
         new_edge = self._untried_edges.pop()
@@ -345,7 +373,7 @@ class MonteCarloTreeSearchNode():
                 return current_node.expand()
 
     def best_action(self):
-        simulation_no = args.steps
+        simulation_no = 20
         
         for i in range(simulation_no):
             v = self.tree_policy()
