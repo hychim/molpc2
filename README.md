@@ -1,10 +1,12 @@
-# MoLPC-IMP
+# MoLPC2
 ## Introduction
 **M**odelling **o**f **L**arge **P**rotein **C**omplexes with **I**ntegrative **M**odeling **P**latform
 
-This directory contains the pipeline for modeling large protein complexes without knowing the stochiometry using AlphaFold2, Monte Carlo Tree Search(MCTS), and IMP. MoLPC-IMP can be run using predictions of subcomponents from any method and is thus not directly dependent on AlphaFold2.
+This directory contains the pipeline for modeling large protein complexes without knowing the stochiometry using AlphaFold2, and Monte Carlo Tree Search(MCTS). MoLPC2 can be run using predictions of subcomponents from any method and is thus not directly dependent on AlphaFold2.
 
 Given a set of unique protein sequences, this pipeline predicts the structure of an entire complex composed of the supplied sequences. The pipeline is developed for protein complexes with 7-26 chains, but is also functional for smaller protein complexes.
+
+[Here is a colab notebook version for MCTS part of MoLPC2](https://colab.research.google.com/drive/1MMnB6YwE80LWvqdg0_CjULOuRIWvH-fX?usp=sharing)
 
 ### | [1AVO](https://www.rcsb.org/structure/1avo) | C7 | Hetero 14-mer - A7B7 |
 **Native complex in grey, prediction colored by chain**
@@ -22,15 +24,15 @@ on your system, readily available.
 All needed packages(including AlphaFold and IMP) are supplied through Conda. The only requirement for running MoLPC is therefore Conda, which can be installed by following: https://docs.conda.io/en/latest/miniconda.html
 To setup this pipeline, clone this gitlab repository:
 ```bash
-git clone https://github.com/hychim/molpc-imp.git
+git clone https://github.com/hychim/molpc2.git
 ```
 Run the following to install a conda environment with the necessary dependencies.
 ```bash
-conda env create --name molpc-imp -f environment.yml
+conda env create --name molpc2 -f environment.yml
 ```
-The AlphaFold database are also required which can be downloaded following: https://github.com/deepmind/alphafold. The database is assumed named as alphafold_data and placed outside the molpc-imp. You can also change it in the pipeline.sh script,
+The AlphaFold database are also required which can be downloaded following: https://github.com/deepmind/alphafold. The database is assumed named as alphafold_data and placed outside the molpc2. You can also change it in the pipeline.sh script,
 ```
-molpc-imp
+molpc2
 ├── data
 ├── environment.yml
 ├── output
@@ -51,7 +53,7 @@ alphafold_data
 ```
 
 ## Pipeline
-To run the molpc-imp pipeline. The only inut required is a fasta file containing the sequence of all individual chains in the complexes.
+To run the molpc2 pipeline. The only inut required is a fasta file containing the sequence of all individual chains in the complexes.
 
 For example, to fold a homomer. The input fasta should be:
 ```
@@ -85,11 +87,12 @@ Optional Parameters:
 -d <alphafold_data>   Path to directory of AlphaFold supporting data. (default: ../alphafold_data_v2.3)
 -c <moves>            Maximum moves in monte carlo tree search, if your complexes have more than 30 chains, please increase the no. of moves. (default: 30)
 -s <steps>            Number of simulations in each moves in mcts, more the steps, more accurate the modeling will be. (default: 50)
+-i <stoichiometry>    Stoichiometry of the complex, e.g. '5A:5B'. (default: 'None')
 -r <remodel>          Remodel the final structure with AlphaFold (AF), IMP (IMP) or no re-modeling(False) (default: 'False')
 
 ```
 
-### MoLPC-IMP output
+### MoLPC2 output
 The outputs will be saved in output directory(/molpc/output/<NAME>/) of the directory. The outputs include the computed MSAs, unrelaxed structures, relaxed structures, ranked structures, raw model outputs, prediction metadata, and section timings. The output directory will have the following structure:
 
 ```
@@ -138,5 +141,5 @@ The pipeline consists of four steps:
     From the interactions in the predicted subcomponents, we add chains sequentially following a predetermined path through the interaction network (graph). If two pairwise interactions are A-B and B-C, we assemble the complex A-B-C by superposing chain B from A-B and B-C using BioPython’s SVD and rotating the missing chain to its correct relative position. To find the optimal assembly route for a complex, we search for an optimal path using Monte Carlo Tree Search
 1. Extract distant restrain from MCTS final complexes
     
-1. Model complexes with IMP
+1. Model complexes with IMP (optional)
     
