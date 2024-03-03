@@ -27,7 +27,7 @@ else:
     stoi = args.stoi.split(':')
     stoi_dict = {}
     for i in stoi:        
-        stoi_dict[str(string.ascii_uppercase.find(i[-1]))] = int(i[:-1])
+        stoi_dict[str(string.ascii_uppercase.find(i[-1]))] = int(i[1:-1])
 
 pairs_dir = args.pairs_dir + "*"
 pair_paths = glob.glob(pairs_dir)
