@@ -1,6 +1,6 @@
 # MoLPC2
 ## Introduction
-**M**odelling **o**f **L**arge **P**rotein **C**omplexes with **I**ntegrative **M**odeling **P**latform
+**M**odelling **o**f **L**arge **P**rotein **C**omplexes
 
 This directory contains the pipeline for modeling large protein complexes without knowing the stochiometry using AlphaFold2, and Monte Carlo Tree Search(MCTS). MoLPC2 can be run using predictions of subcomponents from any method and is thus not directly dependent on AlphaFold2.
 
