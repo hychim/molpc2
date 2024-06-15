@@ -143,3 +143,5 @@ The pipeline consists of four steps:
     
 1. Model complexes with IMP (optional)
     
+## zenodo
+`https://zenodo.org/records/11640900`
