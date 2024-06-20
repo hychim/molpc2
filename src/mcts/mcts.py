@@ -373,7 +373,7 @@ class MonteCarloTreeSearchNode():
                 return current_node.expand()
 
     def best_action(self):
-        simulation_no = 20
+        simulation_no = args.steps
         
         for i in range(simulation_no):
             v = self.tree_policy()
